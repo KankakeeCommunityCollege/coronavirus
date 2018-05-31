@@ -1,0 +1,48 @@
+//  TO USE GOOGLE FONTS FOR SITE:
+//==============================================
+//fall back font stack for site
+$basefont-stack: 'Open Sans', sans-serif;
+$base-font-size: 1em;
+//secondary font stack for site
+$secondaryfont-stack: 'Roboto', sans-serif;
+$secondaryfont-weight-regular: 400;
+$secondaryfont-weight-boldish: 500;
+$secondaryfont-weight-bold: 700;
+$secondaryfont-weight-black: 900;
+
+//Image path for most of global style sheet
+$imagedir:'/assets/img/';
+
+//KCC colors
+$primary-blue: #0f3b63;       // Primary red-color
+$primary-red: #c61f48;        // Primary blue-color
+$accent-blue: #005bac;        // Accent blue-color used in all links and link buttons;
+
+$black: #000;
+$grey-1: #666;
+$grey-2: #e5e8ed;
+$grey-3: #f1f2f7;            //  Background color for slick tracks
+$white: #fff;
+
+
+$landing-bg: $grey-2;        // Landing page's background-color
+$default-bg: $white;        // Background color for non-landing pages
+$footer-bg: $white;         // Footer's background color
+$grey-heading: $grey-1;      // Grey headings used within page content
+$fa-color: $primary-red;
+$slide-bg: $white;            // Background color for the upcoming games slick slides
+$sub-nav-heading: $white;     // Font color for h1.page-heading heading of sub-nav
+$nav-link: $white;            // Color for nav-link-main links in mega-nav
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body.landing {
+  background-color: $landing-bg;
+}
+
+body.page {
+  background-color: $default-bg;
+}

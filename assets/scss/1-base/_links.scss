@@ -1,0 +1,50 @@
+.blue-link {
+  color: $primary-blue;
+  font-family: $secondaryfont-stack;
+  font-size: 1.1em;
+  font-weight: $secondaryfont-weight-bold;
+}
+
+.blue-link:hover {
+  color: $primary-red;
+  text-decoration: none;
+}
+
+.schedule-link {
+  margin-left: -20px;
+}
+
+// News rollup Styles
+// =========================================
+.news__link {
+  text-decoration: none !important; // IMPORTANT NEEDED TO PREVENT UNDERLINE ON LINK HOVER
+}
+
+// Change the news heading's color to blue when hovering any part of the news item
+.news__cell-left:hover .news__heading, //this selector isn't functioning properly on hover
+.news__cell-right:hover .news__heading,
+.news__cell-left:focus .news__heading, //this selector isn't functioning properly on hover
+.news__cell-right:focus .news__heading {
+// Change the news headings color to blue when hovering any part of the news item
+  color: $primary-blue;
+}
+
+// link__offset class used to offset anchor jump-links via CSS only method
+// Links need offseting to compensate for fixed nav menu
+// ===========================================================================================
+.link__offset::before {
+  // mobile devices get slightly different offset w/ different sized fixed header
+  content: " ";
+  display: block;
+  height: 371px; // defining a height increases the size
+  margin-top: -371px; // negative margin offsets hight to pull it back down
+  pointer-events: none;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .link__offset::before {
+      height: 271px;
+      margin-top: -271px;
+  }
+}

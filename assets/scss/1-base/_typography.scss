@@ -1,0 +1,209 @@
+.page-heading { // This class is applied to h1 level headings
+  color: $sub-nav-heading;
+  font-family: $secondaryfont-stack;
+  font-size: 1.1em;
+  font-weight: $secondaryfont-weight-bold;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 992px) {
+  .page-heading {
+    font-size: 1.8em;
+  }
+}
+
+p {
+  color: $grey-1;
+  font-family: $basefont-stack;
+  font-size: $base-font-size;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+.menu-heading {
+  color: $primary-red;
+  font-family: $secondaryfont-stack;
+  font-size: 1.2em;
+  font-weight: $secondaryfont-weight-bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.nav-link-main { //styles for Main links in mega-nav
+  color: $nav-link !important;
+  font-family: $secondaryfont-stack;
+  font-size: 1em;
+  font-weight: $secondaryfont-weight-regular;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1080px) {
+  .nav-link-main {
+    font-size: .9em;
+    }
+}
+
+.sub-nav-link {
+  color: $sub-nav-heading;
+  font-family: $secondaryfont-stack;
+  font-size: .8em;
+  font-weight: $secondaryfont-weight-regular;
+  letter-spacing: .06em;
+}
+
+@media screen and (min-width: 992px) {
+  .sub-nav-link {
+    font-size: 1em;
+  }
+}
+
+.footer-heading {
+  font-family: $secondaryfont-stack;
+  font-size: 2.6em;
+  font-weight: $secondaryfont-weight-black;
+}
+
+.sub-heading {
+  color: $white;
+  font-family: $secondaryfont-stack;
+  font-size: .7em;
+  font-weight: $secondaryfont-weight-regular;
+  letter-spacing: .01em;
+  margin-bottom: 2px;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .sub-heading {
+    font-size: .9em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .sub-heading {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sub-heading {
+    font-size: 1.2em;
+  }
+}
+
+.slide-heading {
+  color: $white;
+  font-family: $secondaryfont-stack;
+  font-size: 1em;
+  font-weight: $secondaryfont-weight-bold;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 360px) {
+  .slide-heading {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slide-heading {
+    font-size: 2.1em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .slide-heading {
+    font-size: 2.8em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .slide-heading {
+    font-size: 3em;
+  }
+}
+
+p {
+  font-family: $basefont-stack;
+}
+
+.blue-heading {
+  color: $primary-blue;
+  font-family: $secondaryfont-stack;
+  font-size: 1.4em;
+  font-weight: $secondaryfont-weight-bold;
+}
+
+.f-color {
+  color: $fa-color;  // Sets color for FontAwesome icons
+}
+
+.main-heading {
+  color: $grey-heading;
+  font-family: $secondaryfont-stack;
+  font-size: 1.4em;
+  font-weight: $secondaryfont-weight-regular;
+}
+
+// Typography for Coaches sections on pages
+// ===========================================
+.coaches-heading {
+  color: $grey-heading;
+  font-family: $secondaryfont-stack;
+  font-size: 1.4em;
+  font-weight: $secondaryfont-weight-regular;
+  margin-left: 15px;
+}
+
+.coach-name {
+  color: $primary-red;
+  font-family: $secondaryfont-stack;
+  font-size: 1.5em;
+  font-weight: $secondaryfont-weight-bold;
+}
+
+.coach-title {
+  color: $grey-heading;
+  font-family: $secondaryfont-stack;
+  font-size: 1.2em;
+  font-weight: $secondaryfont-weight-black;
+}
+
+p.general-p {
+  font-family: $basefont-stack;
+  font-size: 1rem;
+}
+
+.news__heading {
+  color: $primary-red;
+  font-family: $secondaryfont-stack;
+  font-size: 1.2em;
+}
+
+.news__sub-heading {
+  color: #666;
+  font-family: $secondaryfont-stack;
+  font-size: .9em;
+  font-weight: $secondaryfont-weight-boldish;
+  text-transform: uppercase;
+}
+
+.news__paragraph {
+  color: #666;
+  font-family: $basefont-stack;
+  font-size: 1rem;
+}
+
+// ALERT TYPOGRAPHY SHIT HERE
+// ==========================
+.alert__title {
+  color: $primary-red;
+  font-family: $secondaryfont-stack;
+  font-size: 1.2em;
+}

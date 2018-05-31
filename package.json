@@ -1,0 +1,36 @@
+{
+  "name": "kcc-athletic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "watch": "gulp",
+    "build": "gulp --production",
+    "test": "gulp --production"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "cross-spawn": "^5.1.0",
+    "del": "^2.2.1",
+    "fs": "^0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sitemap": "^5.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.1.2",
+    "jquery": "^3.2.1",
+    "js-yaml": "^3.6.1",
+    "popper.js": "^1.12.9",
+    "run-sequence": "^1.2.1",
+    "wiredep": "^4.0.0",
+    "yargs": "^7.0.2"
+  },
+  "dependencies": {}
+}
