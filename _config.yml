@@ -27,9 +27,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 future: true
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
-  - liquid-md5
 
 exclude:
   - "gulpfile.js"

@@ -28,7 +28,9 @@
     "jquery": "^3.2.1",
     "js-yaml": "^3.6.1",
     "popper.js": "^1.12.9",
+    "require-dir": "^1.0.0",
     "run-sequence": "^1.2.1",
+    "vinyl-ftp": "^0.6.1",
     "wiredep": "^4.0.0",
     "yargs": "^7.0.2"
   },

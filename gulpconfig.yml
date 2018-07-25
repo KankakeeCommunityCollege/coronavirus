@@ -41,6 +41,20 @@ sass:
   notification: "Running Sass"
   src: "assets/scss/main.scss"
 
+# Gulp task to create stylesheet for custom CloudCannon editor styles (CMS customizations)
+contentSass:
+  # Autoprefixer will make sure your CSS works with these browsers
+  compatibility:    # These are pretty standard autoprefixer compatibility settings
+    - "last 2 versions"
+    - "ie >= 9"
+    - "defaults"
+  dest:
+    jekyllRoot: "assets/css/"
+    buildDir: "_site/assets/css/"
+  notification: "Running Content Sass"
+  src: "assets/scss/content.scss"
+
+# Main JavaScript compile task (gulp_tasks/script.js)
 javascript:
   dest:
     jekyllRoot: "assets/js/"
@@ -60,7 +74,7 @@ sitemap:
     - "_site/**/*.pdf"
     - "_site/**/**/*.pdf"
   siteUrl:
-    - "http://athletics.kcc.edu"
+    - ""
 
 jekyll:
   notification: "Running jekyll"
