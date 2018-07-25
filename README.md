@@ -13,10 +13,9 @@ Development of the new KCC Athletics site based off of design mockups
 	- Gulp - `$ npm install --global gulp-cli` - mac users may need sudo
 
 ## Installation
-	$ git clone https://github.com/KankakeeCommunityCollege/athletics-mockup.git
-	$ cd athletics-mockup
-	$ npm install		// May need to prefix command with sudo (if not using NVM)
-	$ bundle install
+	$ git clone https://github.com/KankakeeCommunityCollege/kcc-startup-template.git <project name>
+	$ cd <project name>
+	$ sh install.sh
 
 ## Development
 	$ gulp

@@ -6,7 +6,7 @@ sleep 1
 # Create local Gemfile from Gemfile.txt
 cp Gemfile.txt Gemfile
 
-echo "running npm isntall"
+echo "running npm install"
 
 sleep .5
 
@@ -23,5 +23,11 @@ sleep 1
 
 # Bundle install
 bundle install
+
+echo "Removing template’s Github remote to avoid overwriting."
+
+sleep 1
+
+git remote remove origin
 
 echo "Installation Complete!"
