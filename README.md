@@ -2,7 +2,7 @@
 
 #### Jekyll + Gulp + Sass + Yarn + BrowserSync + ...
 
-Development of the new KCC Athletics site based off of design mockups
+Development of the new KCC website based off of design mockups and using open source technologies.
 
 ## Requirements
 	- Jekyll - `$ gem install jekyll bundler`
