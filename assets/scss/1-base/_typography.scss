@@ -19,10 +19,6 @@ p {
   font-size: $base-font-size;
 }
 
-h3 {
-  font-size: 1.6em;
-}
-
 .menu-heading {
   color: $primary-red;
   font-family: $secondaryfont-stack;
@@ -206,4 +202,92 @@ p.general-p {
   color: $primary-red;
   font-family: $secondaryfont-stack;
   font-size: 1.2em;
+}
+
+.typography__latest-news-widget__h2 {
+  border-bottom-color: $primary-red;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  color: $primary-blue;
+  text-transform: uppercase;
+}
+
+.typography__newsroom-main-heading {
+  align-self: center;
+  color: $primary-blue;
+  display: inline;
+  font-family: eurostile,sans-serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+  vertical-align: middle;
+  transition-property: color;
+  transition-timing-function: ease;
+  transition-duration: .4s;
+  &:hover,
+  &:focus {
+    color: $primary-red;
+  }
+}
+
+@media screen and (min-width:360px) {
+  .typography__newsroom-main-heading {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width:410px) {
+  .typography__newsroom-main-heading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width:576px) {
+  .typography__newsroom-main-heading {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .typography__newsroom-main-heading {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .typography__newsroom-main-heading {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .typography__newsroom-main-heading {
+    font-size: 4rem;
+  }
+}
+
+.typography__latest-news-widget__rollup-list-h {
+  color: $black;
+}
+
+.latest-news-widget__latest__tease__link:focus .typography__latest-news-widget__rollup-list-h,
+.latest-news-widget__latest__tease__link:hover .typography__latest-news-widget__rollup-list-h,
+.latest-news-widget__latest__tease__number .tease-is-active  {
+  color: $primary-red;
+}
+
+.typography__upcoming-events {
+  color: $primary-blue;
+  font-family: $basefont-stack;
+  font-weight: $base-font-weigth-bold;
+  text-transform: uppercase;
+}
+
+.typography__social-accounts {
+  color: $primary-blue;
+}
+
+.typography__newsroom-heading {
+  font-family: $secondaryfont-weight-bold;
 }
