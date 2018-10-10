@@ -123,18 +123,7 @@ javascript:
     # Exclusions: (!exclaim to exclude)
     # Inclusions: (included in JS compile)
     - "!assets/js/test.js" # test js file
-    - "!assets/js/all.bloat.js" #JS that came from latest-news-widget (for reference & not compiled into any JS for site)
-    - "!assets/js/playlist.js" # Doesn't get compilled into all.min.js
-    - "!assets/js/playlist.min.js" # Doesn't get compilled into all.min.js
-    - "assets/js/ieOnly.js" #IE fix for "latest-news-widget" displaying
-    - "assets/js/date.js" # Sets current date for "latest-news-widget"
-    - "assets/js/newsWidget.js" # Custom JS providing functionallity for "latest-news-widget"
-    - "assets/js/currentPage.js" # Highlights the current page in local navigation bar
-    - "assets/js/navbarScroll.js" # Shrink the local navbar when you scroll down (navbar scroll effect)
-    - "assets/js/playModal.js" # Play a YouTube embed when you click it's modal link that opens it
-    - "assets/js/searchToggle.js" # Custom JS to toggle the search form on mobile devices
-    - "assets/js/modalFix.js" # Fix for Bootstrap 4's issues displaying modals with fixed navigation
-    - "assets/js/jumpLink.js" # Fix for tockify/twitter rendering after jump links have already fired, and then pushing the jump link off screen.
+    - "assets/js/searchToggle.js" # Doesn't get compilled into all.min.js
 
 # Gulp task for main travis JS compile/uglify of all.min.js.
 travisScript:
