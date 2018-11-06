@@ -19,6 +19,12 @@ p {
   font-size: $base-font-size;
 }
 
+ul {
+  color: $grey-1;
+  font-family: $basefont-stack;
+  font-size: $base-font-size;
+}
+
 .menu-heading {
   color: $primary-red;
   font-family: $secondaryfont-stack;
@@ -59,69 +65,25 @@ p {
 
 .footer-heading {
   font-family: $secondaryfont-stack;
-  font-size: 2.6em;
+  font-size: 1.95rem;
   font-weight: $secondaryfont-weight-black;
 }
 
-.sub-heading {
-  color: $white;
-  font-family: $secondaryfont-stack;
-  font-size: .7em;
-  font-weight: $secondaryfont-weight-regular;
-  letter-spacing: .01em;
-  margin-bottom: 2px;
-  padding-top: 5px;
-  text-transform: uppercase;
-}
-
-@media screen and (min-width: 768px) {
-  .sub-heading {
-    font-size: .9em;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .sub-heading {
-    font-size: 1em;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .sub-heading {
-    font-size: 1.2em;
-  }
-}
-
-.slide-heading {
-  color: $white;
-  font-family: $secondaryfont-stack;
-  font-size: 1em;
-  font-weight: $secondaryfont-weight-bold;
-  letter-spacing: .02em;
-  text-transform: uppercase;
-}
-
 @media screen and (min-width: 360px) {
-  .slide-heading {
-    font-size: 1.2em;
+  .footer-heading {
+    font-size: 2.2rem;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .slide-heading {
-    font-size: 2.1em;
+@media screen and (min-width: 375px) {
+  .footer-heading {
+    font-size: 2.4rem;
   }
 }
 
-@media screen and (min-width: 992px) {
-  .slide-heading {
-    font-size: 2.8em;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .slide-heading {
-    font-size: 3em;
+@media screen and (min-width: 410px) {
+  .footer-heading {
+    font-size: 2.6rem;
   }
 }
 
@@ -245,25 +207,19 @@ p.general-p {
 
 @media screen and (min-width:576px) {
   .typography__newsroom-main-heading {
-    font-size: 3.2rem;
+    font-size: 2.3rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .typography__newsroom-main-heading {
-    font-size: 4rem;
+    font-size: 2.4rem;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1500px) {
   .typography__newsroom-main-heading {
-    font-size: 3.2rem;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .typography__newsroom-main-heading {
-    font-size: 4rem;
+    font-size: 2.6rem;
   }
 }
 
@@ -290,4 +246,154 @@ p.general-p {
 
 .typography__newsroom-heading {
   font-family: $secondaryfont-weight-bold;
+}
+
+.red-heading {
+  color: $primary-red;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 2.8rem;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.typography__red-h3 {
+  color: $primary-red;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.typography__red-h3--margin-btm {
+  margin-bottom: 40px;
+}
+
+.typography__red-h3--tan--margin-btm{
+  margin-bottom: 21px;
+}
+
+.typography__col--heading-underline {
+  background-image: url(/assets/img/heading-bg-underline.png);
+  background-repeat: no-repeat;
+  background-position: 0 50px;
+}
+
+.typography__col--heading-underline-tan {
+  background-image: url(/assets/img/heading-bg-underline-tan.png);
+  background-repeat: no-repeat;
+  background-position: 0 50px;
+}
+
+.typography__contacts--name {
+  color: $primary-blue;
+  font-family: $secondaryfont-stack;
+  font-size: 1.3em;
+  font-weight: $secondaryfont-weight-bold;
+}
+
+.typography__contacts--title {
+  color: $grey-heading;
+  font-family: $secondaryfont-stack;
+  font-size: 1.1em;
+  font-weight: $secondaryfont-weight-black;
+}
+
+.typography__stories--quote {
+  color: $primary-blue;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 488px) {
+  .typography__stories--quote {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .typography__stories--quote {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .typography__stories--quote {
+    font-size: 1.4rem;
+  }
+}
+
+.typography__stories--name {
+  color: $primary-blue;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.typography__orange-h4  {
+  color: $orange-heading;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.4rem;
+}
+
+.typography__h5 {
+  color: $grey-6;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.typography__sub-nav--red-h3 {
+  color: $primary-red;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .typography__sub-nav--red-h3 {
+    font-size: 1.8rem;
+  }
+}
+
+.typography__nav-link {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.typography__power-text {
+  color: $white;
+  font-family: $powerfont-family;
+  font-size: 1.1rem;
+  font-weight: $powerfont-weight-bold;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 360px) {
+  .typography__power-text {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .typography__power-text {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .typography__power-text {
+    font-size: 2.9rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .typography__power-text {
+    font-size: 3.1rem;
+  }
 }
