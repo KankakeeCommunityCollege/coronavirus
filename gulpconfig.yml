@@ -234,5 +234,3 @@ watch: # 'Watch' for changes in all the following:
     # !exlclusions:
     - "!_site/**/*.*"
     - "!assets/**/*.*"
-  copyrss:
-    - "_site/rss.xml"
