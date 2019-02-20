@@ -23,11 +23,6 @@ gulp.task('build', function(done) { // This runs the following tasks (above): cl
   sequence( 'clean', 'jekyll-build', 'sitemap', ['sass', 'contentSass', 'javascript', 'playlistScript'], 'copy', done);
 });
 
-gulp.task('travisBuild', function(done) { // This runs the following tasks (above): clean (cleans _site/), jekyll-build (jekyll does its thing), SASS and JS tasks (compile them), copy (copies static assets like images to the site build)
-
-  sequence( 'clean', 'travisJekyllBuild', 'travisSitemap', ['travisSass', 'travisContentSass', 'travisScript', 'travisPlaylistScript'], 'travisCopy', 'travisCopyRss', done);
-});
-
 gulp.task('default', function(done) { // Default gulp task (run via 'gulp' in terminal)
   sequence('build', 'browser-sync', 'watch', done); // Runs these things which in turn run other things.
 });
@@ -39,8 +34,4 @@ gulp.task('watch', function() { // Watch for changes to be piped into browserSyn
   gulp.watch(config.watch.sass, ['sass']); // SASS/SCSS changes
   gulp.watch(config.watch.sass, ['contentSass']); // SASS/SCSS changes
   gulp.watch(config.watch.images, ['copy', browserSync.reload]); // Watch for new static assets like images
-});
-
-gulp.task('travis', function(done) { // Default gulp task (run via 'gulp' in terminal)
-  sequence('travisBuild', done); // Runs these things which in turn run other things.
 });
