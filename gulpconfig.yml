@@ -18,8 +18,9 @@ copy:
   # Paths to static assets that aren't (S)CSS or JavaScript
   # because these are completely handled by the sass and javascript tasks.
   assets:
-    # all files below the assets dir, except the exclusions...
-    - "assets/**/*"
+    - "assets/css/*"
+    - "assets/img/*"
+    - "assets/js/dist/*"
     # exclusions: (Don't copy these items because they are handled by other gulp tasks)
     - "!assets/{js,scss,css}/**/*"   # js, scss and css files
     - "!assets/css{,/**}"            # css dir
@@ -27,6 +28,14 @@ copy:
     - "!assets/scss{,/**}"           # scss dir
   dist: "_site/assets/"
   notification: "Running Copy"
+
+copyVendor:
+  assets:
+    # all files below the assets dir
+    # everything gets copied to site build becuase some JS files are linked directly into pages and not compiled into all.min.js)
+    - "assets/vendor/**/*.*"
+  dist: "_site/assets/"
+  notification: "Running Copy Vendors"
 
 copyrss:
   assets:
@@ -65,43 +74,6 @@ contentSass:
   notification: "Running contentSass"
   src: "assets/scss/content.scss"
 
-# Main JS compile task for all.min.js
-# Any changes to Javascript task should be also be made to travisScript.
-javascript:
-  dest:
-    jekyllRoot: "assets/js"
-    buildDir: "_site/assets/js"
-  filename: "all.min.js"
-  notification: "Running JavaScript"
-  src:
-    # Exclusions: (!exclaim to exclude)
-    # Inclusions: (included in JS compile)
-    - "!assets/js/test.js" # test js file
-    - "assets/js/searchToggle.js" # Doesn't get compilled into all.min.js
-    - "assets/js/footerDate.js"
-    - "assets/js/lazyLoad.js"
-
-# Gulp task to compile playlist.min.js used only in "videos" page
-# Any changes playlistScript task should be also be made to travisPlaylistScript.
-playlistScript:
-  dest:
-    jekyllRoot: "assets/js/"
-    buildDir: "_site/assets/js/"
-  filename: "playlist.min.js"
-  notification: "Running Playlist JavaScript"
-  src:
-    - "!assets/js/test.js" # EXCLUDE ALL THESE FROM JS COMPILE EXPCEPT THE LAST ONE:
-    - "!assets/js/all.bloat.js"
-    - "!assets/js/date.js"
-    - "!assets/js/newsWidget.js"
-    - "!assets/js/currentPage.js"
-    - "!assets/js/navbarScroll.js"
-    - "!assets/js/playlist.min.js"
-    - "!assets/js/playModal.js"
-    - "!assets/js/searchToggle.js"
-    - "!assets/js/modalFix.js"
-    - "assets/js/playlist.js" # Custom YouTube playlist used on videos.html page
-
 # Gulp task to create sitemap on production builds (`$ gulp --production`).
 # Any changes to sitemap task should be also be made to travisSitemap.
 sitemap:
@@ -118,15 +90,14 @@ jekyll:
   notification: "Running jekyll"
 
 watch: # 'Watch' for changes in all the following:
-  images: "assets/img/**/*"
-  javascript:
-    - "assets/js/all.min.js"
-    - "assets/js/*.js"
-  secondScript:
-    - "assets/js/playlist.min.js"
-    - "assets/js/*.js"
+  images:
+    - "assets/img/**/*"
+    - "_data/*.yml"
   sass: "assets/scss/**/*.scss"
   contentSass: "assets/scss/**/*.scss"
+  watchWebpack:
+    - "assets/js/dist/*.js"
+    - "_data/*"
   pages:
     - "*.{md,html,yml,xml}"
     - "{_data,_includes,_layouts,_pages,_posts,_alerts}/**/*.{md,html,yml,xml}"
