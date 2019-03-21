@@ -20,7 +20,7 @@ var config = loadConfig();
 module.exports = config;
 
 gulp.task('build', function(done) { // This runs the following tasks (above): clean (cleans _site/), jekyll-build (jekyll does its thing), SASS and JS tasks (compile them), copy (copies static assets like images to the site build)
-  sequence( 'clean', 'jekyll-build', 'sitemap', ['sass', 'contentSass', 'javascript', 'playlistScript'], 'copy', done);
+  sequence( 'clean', 'jekyll-build', 'sitemap', ['sass', 'contentSass'], 'copyVendor', 'copy', done);
 });
 
 gulp.task('default', function(done) { // Default gulp task (run via 'gulp' in terminal)
@@ -29,8 +29,7 @@ gulp.task('default', function(done) { // Default gulp task (run via 'gulp' in te
 
 gulp.task('watch', function() { // Watch for changes to be piped into browserSync on saving of files:
   gulp.watch(config.watch.pages, ['build', browserSync.reload]); // Watch for new pages and changes.
-  gulp.watch(config.watch.javascript, ['javascript', browserSync.reload]); // JS changes
-  gulp.watch(config.watch.playlistScript, ['playlistScript', browserSync.reload]); // JS changes
+  gulp.watch(config.watch.watchWebpack, ['build', browserSync.reload]);
   gulp.watch(config.watch.sass, ['sass']); // SASS/SCSS changes
   gulp.watch(config.watch.sass, ['contentSass']); // SASS/SCSS changes
   gulp.watch(config.watch.images, ['copy', browserSync.reload]); // Watch for new static assets like images
