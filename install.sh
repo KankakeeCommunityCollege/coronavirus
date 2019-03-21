@@ -6,7 +6,7 @@ sleep 1
 # Create local Gemfile from Gemfile.txt
 cp Gemfile.txt Gemfile
 
-echo "running npm install"
+echo "Running npm install"
 
 sleep .5
 
@@ -17,7 +17,7 @@ sleep 1
 # NPM install
 npm install
 
-echo "running bundle install"
+echo "Running bundle install"
 
 sleep 1
 
@@ -26,13 +26,18 @@ bundle install
 
 sleep 1
 
-# Determine OS platform
-UNAME=$(uname | tr "[:upper:]" "[:lower:]")
-# If Linux, try to determine specific distribution
-if [ "$UNAME" == "linux" ]; then
-    # linux commands
+uname=$(uname)
+# If your on a Linux machine do...
+if [ "$uname" = "Linux" ]
+  then
+    # fix for node.js watch ENOSPC errors
+    # increases the max number of system watchers on linux
+    echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+    echo "[LINUX]: Increase max watchers on Linux platforms"
+    sleep 1
+  else
+    echo "[Skipping](optional): Increase max watchers on Linux platforms. Your system: $uname"
 fi
-
 unset UNAME
 
 sleep 1
