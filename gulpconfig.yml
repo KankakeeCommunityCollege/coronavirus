@@ -92,7 +92,6 @@ jekyll:
 watch: # 'Watch' for changes in all the following:
   images:
     - "assets/img/**/*"
-    - "_data/*.yml"
   sass: "assets/scss/**/*.scss"
   contentSass: "assets/scss/**/*.scss"
   watchWebpack:
