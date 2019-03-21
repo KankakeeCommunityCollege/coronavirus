@@ -24,10 +24,17 @@ sleep 1
 # Bundle install
 bundle install
 
-echo "Removing template’s Github remote to avoid overwriting."
-
 sleep 1
 
-git remote remove origin
+# Determine OS platform
+UNAME=$(uname | tr "[:upper:]" "[:lower:]")
+# If Linux, try to determine specific distribution
+if [ "$UNAME" == "linux" ]; then
+    # linux commands
+fi
+
+unset UNAME
+
+sleep 1
 
 echo "Installation Complete!"
