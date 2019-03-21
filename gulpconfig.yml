@@ -83,8 +83,8 @@ sitemap:
     - "_site/**/**/*.html"
     - "_site/**/*.pdf"
     - "_site/**/**/*.pdf"
-  siteUrl:
-    - "http://news.kcc.edu"
+  notification: "Running sitemap"
+  siteUrl: "styleguide.kcc.edu"
 
 jekyll:
   notification: "Running jekyll"
@@ -97,7 +97,7 @@ watch: # 'Watch' for changes in all the following:
   contentSass: "assets/scss/**/*.scss"
   watchWebpack:
     - "assets/js/dist/*.js"
-    - "_data/*"
+    - "_data/*.yml"
   pages:
     - "*.{md,html,yml,xml}"
     - "{_data,_includes,_layouts,_pages,_posts,_alerts}/**/*.{md,html,yml,xml}"
@@ -105,3 +105,4 @@ watch: # 'Watch' for changes in all the following:
     # !exlclusions:
     - "!_site/**/*.*"
     - "!assets/**/*.*"
+  notification: "Running watch"

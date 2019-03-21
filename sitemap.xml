@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://news.kcc.edu/</loc>
-        <lastmod>2019-03-21T04:00:50.283Z</lastmod>
+        <loc>styleguide.kcc.edu/</loc>
+        <lastmod>2019-03-21T17:15:21.283Z</lastmod>
     </url>
     <url>
-        <loc>http://news.kcc.edu/search/</loc>
-        <lastmod>2019-03-21T04:00:50.283Z</lastmod>
+        <loc>styleguide.kcc.edu/search/</loc>
+        <lastmod>2019-03-21T17:15:21.283Z</lastmod>
     </url>
 </urlset>
