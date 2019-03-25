@@ -18,9 +18,7 @@ copy:
   # Paths to static assets that aren't (S)CSS or JavaScript
   # because these are completely handled by the sass and javascript tasks.
   assets:
-    - "assets/css/*"
-    - "assets/img/*"
-    - "assets/js/dist/*"
+    - "assets/**/*"
     # exclusions: (Don't copy these items because they are handled by other gulp tasks)
     - "!assets/{js,scss,css}/**/*"   # js, scss and css files
     - "!assets/css{,/**}"            # css dir
@@ -94,9 +92,6 @@ watch: # 'Watch' for changes in all the following:
     - "assets/img/**/*"
   sass: "assets/scss/**/*.scss"
   contentSass: "assets/scss/**/*.scss"
-  watchWebpack:
-    - "assets/js/dist/*.js"
-    - "_data/*.yml"
   pages:
     - "*.{md,html,yml,xml}"
     - "{_data,_includes,_layouts,_pages,_posts,_alerts}/**/*.{md,html,yml,xml}"
@@ -104,4 +99,3 @@ watch: # 'Watch' for changes in all the following:
     # !exlclusions:
     - "!_site/**/*.*"
     - "!assets/**/*.*"
-  notification: "Running watch"
