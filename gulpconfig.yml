@@ -59,8 +59,8 @@ sass:
   src: "assets/scss/main.scss"
 
 # Gulp task to create stylesheet for custom CloudCannon editor styles (CMS customizations)
-# Any changes to contentSass should be also be made to travisContentSass.
-contentSass:
+# Any changes to cmsScss should be also be made to travisContentSass.
+cmsScss:
   # Autoprefixer will make sure your CSS works with these browsers
   compatibility:    # These are pretty standard autoprefixer compatibility settings
     - "last 2 versions"
@@ -69,7 +69,7 @@ contentSass:
   dest:
     jekyllRoot: "assets/css/"
     buildDir: "_site/assets/css/"
-  notification: "Running contentSass"
+  notification: "Running cmsScss"
   src: "assets/scss/content.scss"
 
 # Gulp task to create sitemap on production builds (`$ gulp --production`).
@@ -91,11 +91,12 @@ watch: # 'Watch' for changes in all the following:
   images:
     - "assets/img/**/*"
   sass: "assets/scss/**/*.scss"
-  contentSass: "assets/scss/**/*.scss"
+  cmsScss: "assets/scss/**/*.scss"
   pages:
     - "*.{md,html,yml,xml}"
     - "{_data,_includes,_layouts,_pages,_posts,_alerts}/**/*.{md,html,yml,xml}"
     # All these subfolders are added because the watch task was not looking deep enough
     # !exlclusions:
-    - "!_site/**/*.*"
-    - "!assets/**/*.*"
+    - "!sitemap.xml"
+    - "!_site/**/*"
+    - "!assets/**/*"
