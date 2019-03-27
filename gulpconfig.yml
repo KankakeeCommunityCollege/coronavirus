@@ -1,3 +1,4 @@
+# Configurations used in the gulpfile.js
 browsersync:
   notify: true
   open:   false # set to true to open localhost:3000 in chrome browser upon execution of gulp command.
@@ -12,14 +13,13 @@ clean:
   - "_site" # clean these folders on execution of gulp command
 #  - "_posts/*"
 
-# Copy task coppies static assets like images into site build
-# Any changes to Copy task should be also be made to travisCopy.
+# Copy task coppies ONLY static assets like images into site build
 copy:
   # Paths to static assets that aren't (S)CSS or JavaScript
   # because these are completely handled by the sass and javascript tasks.
   assets:
     - "assets/**/*"
-    # exclusions: (Don't copy these items because they are handled by other gulp tasks)
+    # exclusions: (Don't copy these items because they are handled by other gulp tasks):
     - "!assets/{js,scss,css}/**/*"   # js, scss and css files
     - "!assets/css{,/**}"            # css dir
     - "!assets/js{,/**}"             # js dir
@@ -27,25 +27,7 @@ copy:
   dist: "_site/assets/"
   notification: "Running Copy"
 
-copyVendor:
-  assets:
-    # all files below the assets dir
-    # everything gets copied to site build becuase some JS files are linked directly into pages and not compiled into all.min.js)
-    - "assets/vendor/**/*.*"
-  dist: "_site/assets/"
-  notification: "Running Copy Vendors"
-
-copyrss:
-  assets:
-    - "./_site/feed.xml"
-  filename:
-    - "rss.xml"
-  dist:
-    - "./"
-  notification: "Running Copy RSS"
-
 # Main Gulp Sass task (for main.css).
-# Any changes to Sass should be also be made to travisSass.
 sass:
   # Autoprefixer will make sure your CSS works with these browsers
   compatibility:    # These are pretty standard autoprefixer compatibility settings
@@ -55,14 +37,12 @@ sass:
   dest:
     jekyllRoot: "assets/css/"
     buildDir: "_site/assets/css/"
-  notification: "Running Sass"
+  notification: "Running Main Sass"
   src: "assets/scss/main.scss"
 
-# Gulp task to create stylesheet for custom CloudCannon editor styles (CMS customizations)
-# Any changes to cmsScss should be also be made to travisContentSass.
+# Gulp task to create stylesheet for custom options in CloudCannon (CMS customizations). Editors can use these styles as option in the CMS.
 cmsScss:
-  # Autoprefixer will make sure your CSS works with these browsers
-  compatibility:    # These are pretty standard autoprefixer compatibility settings
+  compatibility:
     - "last 2 versions"
     - "ie >= 9"
     - "defaults"
@@ -73,13 +53,12 @@ cmsScss:
   src: "assets/scss/content.scss"
 
 # Gulp task to create sitemap on production builds (`$ gulp --production`).
-# Any changes to sitemap task should be also be made to travisSitemap.
 sitemap:
-  src:
+  src: # Defines what items should be in used in creating the sitemap.
     - "_site/*.html"
     - "_site/**/*.html"
     - "_site/**/**/*.html"
-    - "_site/**/*.pdf"
+    - "_site/**/*.pdf" # Yes, PDF's too.
     - "_site/**/**/*.pdf"
   notification: "Running sitemap"
   siteUrl: "styleguide.kcc.edu"
@@ -93,10 +72,10 @@ watch: # 'Watch' for changes in all the following:
   sass: "assets/scss/**/*.scss"
   cmsScss: "assets/scss/**/*.scss"
   pages:
-    - "*.{md,html,yml,xml}"
-    - "{_data,_includes,_layouts,_pages,_posts,_alerts}/**/*.{md,html,yml,xml}"
-    # All these subfolders are added because the watch task was not looking deep enough
+    - "*.{md,html,yml,xml}" # watch the project root.
+    - "{_data,_includes,_layouts,_pages,_posts,_alerts}/**/*.{md,html,yml,xml}" # watch standard jekyll dirs.
     # !exlclusions:
-    - "!sitemap.xml"
-    - "!_site/**/*"
-    - "!assets/**/*"
+    # These are important exceptions that should be excluded from watching!
+    - "!sitemap.xml" # When you run `$ gulp --production`, sitemap gets copied-out to project root. This would then, be picked up by watch, which would kick-off another build, causing another change in the sitemap.xml file (i.e. an infinite loop)
+    - "!_site/**/*" # This is always going to change.
+    - "!assets/**/*" # Don't watch 'assets/' dir. SASS & JS changes get injected into the '_site' dir & localhost:3000/ whithout having to re-run the whole 'build' task. Images are watched seperately
