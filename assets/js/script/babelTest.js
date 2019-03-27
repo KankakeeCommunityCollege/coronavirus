@@ -4,7 +4,9 @@ function doStuff() {
     'Helium',
     'Lithium',
     'Beryllium',
-    'Uranium'
+    'Boron',
+    'Carbon',
+    'Nitrogen'
   ];
   const data = materials.map(material => material.length + '<br>' + material + ' <br><hr>');
   const theDiv = document.getElementById('theDiv');
