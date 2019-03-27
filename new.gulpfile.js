@@ -13,34 +13,16 @@ const autoprefixer = require('gulp-autoprefixer');
 const cssnano = require('gulp-cssnano');
 const imagemin = require('gulp-imagemin');
 const browserSync = require('browser-sync');
-const config = require('./gulp-tasks/loadGulpConfig'); // require 
+const config = require('./gulp-tasks/loadGulpConfig'); // import custom js to parse YAML-configuration file (gulpconfig.yml)
 
+// Clean stuff (delete '_site/' dir)
 function clean(done) {
-  /*
-function loadConfig() {
-    const ymlFile = fs.readFileSync('gulpconfig.yml', 'utf8');
-    return yaml.load(ymlFile);
-  }
-  const config = loadConfig();
-  module.exports = config;*/
-
-
-  // Clean stuff
-  del(config.clean);
+  del(config.clean); // config.key.other-key references values from gulpconfig.yml
   done();
 }
 
+// Run Jekll
 function jekyllBuild(done) {
-  /*
-function loadConfig() {
-    const ymlFile = fs.readFileSync('gulpconfig.yml', 'utf8');
-    return yaml.load(ymlFile);
-  }
-  const config = loadConfig();
-  module.exports = config;*/
-
-
-
   browserSync.notify(config.jekyll.notification);
   return spawn('jekyll', ['build'], {
     stdio: 'inherit'
@@ -48,18 +30,9 @@ function loadConfig() {
   .on('close', done);
 }
 
+// Create sitemap on production builds
 function gulpSitemap(done) {
   const PRODUCTION = !!(yargs.argv.production); // Run things that say 'PRODCUTION' on production builds only ($ gulp --production)
-
-  /*
-  function loadConfig() {
-    const ymlFile = fs.readFileSync('gulpconfig.yml', 'utf8');
-    return yaml.load(ymlFile);
-  }
-  const config = loadConfig();
-  module.exports = config;  */
-
-
 
   gulp.src((config.sitemap.src), {
     read: false
@@ -72,47 +45,29 @@ function gulpSitemap(done) {
   done();
 }
 
+// Compile main.css file from sass modules
 function mainScss() {
-  const PRODUCTION = !!(yargs.argv.production); // Run things that say 'PRODCUTION' on production builds only ($ gulp --production)
-
-  /*
-function loadConfig() {
-    const ymlFile = fs.readFileSync('gulpconfig.yml', 'utf8');
-    return yaml.load(ymlFile);
-  }
-  const config = loadConfig();
-  module.exports = config;*/
-
-
+  const PRODUCTION = !!(yargs.argv.production);
 
   return gulp.src(config.sass.src)
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError)) // errors shown in terminal for when you screw up your SASS
     .pipe(autoprefixer(config.sass.compatibility)) // Automatically prefix any CSS that is not compatible with the browsers defined in the gulpconfig
-    .pipe(gulpif(PRODUCTION, cssnano({ zindex: false }))) // {zindex:false} to prevent override of z-index values -- higher z-index's needed to bring objects above bootstrap's default z-index values
+    .pipe(gulpif(PRODUCTION, cssnano({ zindex: false }))) // {zindex:false} to prevent override of z-index values -- higher z-index's are needed in our projects to bring objects above bootstrap's default z-index values
     .pipe(gulpif(!PRODUCTION, sourcemaps.write()))
     .pipe(gulp.dest(config.sass.dest.jekyllRoot))
     .pipe(gulp.dest(config.sass.dest.buildDir))
     .pipe(browserSync.stream());
 }
 
+// compile 'content.css' which creates custom styles that are available to users the CloudCannon interface.
 function cmsScss() {
-  const PRODUCTION = !!(yargs.argv.production); // Run things that say 'PRODCUTION' on production builds only ($ gulp --production)
-
-  /*
-  function loadConfig() {
-    const ymlFile = fs.readFileSync('gulpconfig.yml', 'utf8');
-    return yaml.load(ymlFile);
-  }
-  const config = loadConfig();
-  module.exports = config;  */
-
-
+  const PRODUCTION = !!(yargs.argv.production);
 
   return gulp.src(config.cmsScss.src)
     .pipe(sourcemaps.init())
-    .pipe(sass().on('error', sass.logError)) // errors shown in terminal for when you screw up your SASS
-    .pipe(autoprefixer(config.cmsScss.compatibility)) // Automatically prefix any CSS that is not compatible with the browsers defined in the gulpconfig
+    .pipe(sass().on('error', sass.logError))
+    .pipe(autoprefixer(config.cmsScss.compatibility))
     .pipe(gulpif(PRODUCTION, cssnano({ zindex: false }))) // {zindex:false} to prevent override of z-index values -- higher z-index's needed to bring objects above bootstrap's default z-index values
     .pipe(gulpif(!PRODUCTION, sourcemaps.write()))
     .pipe(gulp.dest(config.cmsScss.dest.jekyllRoot))
@@ -120,18 +75,10 @@ function cmsScss() {
     .pipe(browserSync.stream());
 }
 
+// copy static assets/**/* !except for SCSS, CSS, or JS files
+// JS is handled by webpack. CSS and SCSS are handled by other gulp tasks.
 function copy() {
-  const PRODUCTION = !!(yargs.argv.production); // Run things that say 'PRODCUTION' on production builds only ($ gulp --production)
-
-  /*
-function loadConfig() {
-    const ymlFile = fs.readFileSync('gulpconfig.yml', 'utf8');
-    return yaml.load(ymlFile);
-  }
-  const config = loadConfig();
-  module.exports = config;*/
-
-
+  const PRODUCTION = !!(yargs.argv.production);
 
   browserSync.notify(config.copy.notification);
   return gulp.src(config.copy.assets)
@@ -139,17 +86,8 @@ function loadConfig() {
     .pipe(gulp.dest(config.copy.dist));
 }
 
+// Initiate Broswersync
 function browserSyncInit(done) {
-  /*
-function loadConfig() {
-    const ymlFile = fs.readFileSync('gulpconfig.yml', 'utf8');
-    return yaml.load(ymlFile);
-  }
-  const config = loadConfig();
-  module.exports = config;*/
-
-
-
   browserSync.init({
     notify: config.browsersync.notify,
     open: config.browsersync.open,
@@ -163,54 +101,48 @@ function loadConfig() {
   done();
 }
 
-// BrowserSync Reload
+// Reload Browsersync
 function browserSyncReload(done) {
   browserSync.reload();
   done();
 }
 
+// Watch the project for file changes ( with Gulp 4's new watch API )
 function watchFiles() {
-  /*
-function loadConfig() {
-    const ymlFile = fs.readFileSync('gulpconfig.yml', 'utf8');
-    return yaml.load(ymlFile);
-  }
-  const config = loadConfig();
-  module.exports = config;*/
-
-
-
+  // Watch all-things jekyll related (i.e. *.yml, *.md, *.html, files and jekyll underscored _dir's)
   watch(
     config.watch.pages,
     series(
       build,
       browserSyncReload
     )
-  ); // Watch for new pages and changes.
-
+  );
+  // Watch for SASS changes in main.scss
   watch(
     config.watch.sass,
     mainScss
-  ); // SASS/SCSS changes
-
+  );
+  // Watch for SASS changes in content.scss
   watch(
     config.watch.sass,
     cmsScss
-  ); // SASS/SCSS changes
+  );
+  // Watchin' for static asset changes (e.g. new images)
   watch(
     config.watch.images,
     series(
       copy,
-      browserSyncReload // Watch for new static assets like images
+      browserSyncReload
     )
   );
 }
 
 // More complex tasks go like this:
-const build = series(
+// Task lineup (calling functions defined above) for compiling the files that make up the actual static site (in _site dir)
+const build = series( // Series items need to be executed in a specific order (new to Gulp 4)
   clean,
   jekyllBuild,
-  parallel(
+  parallel( // These parallel tasks require the '_site' to be built, but it doesnt really matter what order they execute.
     gulpSitemap,
     mainScss,
     cmsScss,
@@ -218,11 +150,14 @@ const build = series(
   ),
 );
 
+// unless you export a task, you cannot call that task from terminal (e.g. `$ gulp build` would run just the '_site' compile)
+// Gulp 4 docs call this private vs public tasks. public meaning tasks that are exported and callable from terminal
 exports.build = build;
-//uncommenting these would make it so you can call `$ gulp watch` or `$ gulp browserSync` from terminal:
+// While the tasks below are commented out, they remain private tasks (i.e. you cannot call `$ gulp watch` from terminal. Why would you need to?)
 //exports.browserSync = browserSync;
 //exports.watchFiles = watchFiles;
 
+// Define gulp's default task
 exports.default = series(
   build,
   parallel(
