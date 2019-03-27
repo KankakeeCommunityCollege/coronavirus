@@ -1,16 +1,31 @@
-# KCC Site Startup Template
+# KCC Startup Template
 
-#### Jekyll + Gulp + Sass + Yarn + BrowserSync + ...
+#### Jekyll + Webpack + Babel + Gulp + Sass + Autoprefixer + imagemin + BrowserSync + ...
 
-Development of the new KCC website based off of design mockups and using open source technologies.
+***A startup repo for creating new websites in the KCC website redesign project***
+
+---
+
+The Development of new KCC website is based off of designer's mockups and uses open source technologies.
+
+***This README assumes you are using a modern macOS X system***
 
 ## Requirements
-	- Jekyll - `$ gem install jekyll bundler`
-	- Bundler - `$ gem install bundler`
-	- Nodejs - I recommend using NVM (Node Version Manager): https://github.com/creationix/nvm
-	- .nvmrc file in this repo will make NVM use Node v8.9.4 (to avoid compatibility issues)
-		- Or, if you must - Use the Nodejs installer: https://nodejs.org/
-	- Gulp - `$ npm install --global gulp-cli` - mac users may need sudo
+---
+
+ - Jekyll & Bundler:
+```shell
+$ gem install jekyll
+$ gem install bundler
+```
+ - Nodejs - I recommend using NVM (Node Version Manager): https://github.com/creationix/nvm
+   - .nvmrc file in this repo will make NVM use Node v8.9.4 (to avoid compatibility issues)
+   - Or, if you must - Use the Nodejs installer: https://nodejs.org/
+
+ - Gulp:
+```shell
+$ npm install --global gulp-cli` // mac users may need sudo
+```
 
 ## Installation
 	$ git clone https://github.com/KankakeeCommunityCollege/kcc-startup-template.git <project name>
@@ -21,6 +36,7 @@ Development of the new KCC website based off of design mockups and using open so
 	$ gulp
 
 ## Production
+	`$ `
 
 Production build minifies CSS and JavaScript and compresses image files.
 
