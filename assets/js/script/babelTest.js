@@ -11,7 +11,8 @@ function doStuff() {
     'Fluorine',
     'Neon',
     'Sodium',
-    'Magnesium'
+    'Magnesium',
+    'Silicon'
   ];
   const data = materials.map(material => material.length + '<br>' + material + ' <br><hr>');
   const theDiv = document.getElementById('theDiv');
