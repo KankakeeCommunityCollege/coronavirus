@@ -10,6 +10,12 @@
 
 The Development of new KCC website is based off of designer's mockups and uses open source technologies.
 
+**This site uses KCC's own gem-based jekyll-theme--developed in-house!**
+
+You can find the kcc-gem-theme at https://rubygems.org/gems/kcc-gem-theme and on GitHub at https://github.com/KankakeeCommunityCollege/kcc-gem-theme/
+
+[![Gem Version](https://badge.fury.io/rb/kcc-gem-theme.svg)](https://badge.fury.io/rb/kcc-gem-theme)
+
 ***This README assumes you are using a modern macOS system***
 
 *The same setup can be achieved on Windows and Linux however, the requirements are different.*
@@ -97,3 +103,11 @@ alias npm-p="npm run production"
 Production build minifies CSS and JavaScript and compresses image files.
 
 ---
+
+<br>
+
+## The [kcc-gem-theme](https://rubygems.org/gems/kcc-gem-theme)
+
+You will notice this GitHub repo has nothing in it's `_layouts/` dir and no `assets/img/` dir. Yet, when you build the project, images are there and it obviously has a layout. That's thanks to KCC's gem-based jekyll-theme.
+
+Having a theme gem allows us to make changes (to the shared theme elements) across multiple sites, in one place.
