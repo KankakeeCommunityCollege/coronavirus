@@ -72,7 +72,7 @@ Both dev and production builds run two npm scripts in parallel: one starts the `
 $ npm run dev
 
 # This alias in your dotfiles is convenient:
-alias npm-d="npm run production"
+alias npm-d="npm run dev"
 ```
 
 Dev builds run quicker on your machine. They make un-minified CSS, JS, & images.
