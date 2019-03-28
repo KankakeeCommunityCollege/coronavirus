@@ -1,5 +1,6 @@
 title: "Kankakee Community College"
 public-url: "https://www.kcc.edu"
+theme: "kcc-gem-theme"
 collections:
   posts:
     output: false
