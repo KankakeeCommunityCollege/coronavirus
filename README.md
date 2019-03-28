@@ -6,6 +6,8 @@
 
 ---
 
+<br>
+
 The Development of new KCC website is based off of designer's mockups and uses open source technologies.
 
 ***This README assumes you are using a modern macOS system***
@@ -13,6 +15,9 @@ The Development of new KCC website is based off of designer's mockups and uses o
 *The same setup can be achieved on Windows and Linux however, the requirements are different.*
 
 ---
+
+<br>
+
 ## Requirements
 
  - Jekyll & Bundler:
@@ -30,6 +35,9 @@ $ npm install --global gulp-cli # mac users may need sudo
 ```
 
 ---
+
+<br>
+
 ## Installation
 
 ```shell
@@ -39,6 +47,9 @@ $ sh install.sh # install.sh runs bundle & npm installs, among a few other thing
 ```
 
 ---
+
+<br>
+
 ## The Build
 
 Both production builds and dev builds use the run-p (running npm scripts in parallel) using [npm-run-all](https://www.npmjs.com/package/npm-run-all).
@@ -50,6 +61,9 @@ Both dev and production builds run two npm scripts in parallel: one starts the `
 **A production build** runs gulp with the `--production` flag and Webpack with the `--mode=production` flag.
 
 ---
+
+<br>
+
 ## Development
 
 ***Do NOT push dev builds to the GitHub repo.***
@@ -66,6 +80,9 @@ Dev builds run quicker on your machine. They make un-minified CSS, JS, & images.
 Dev builds also create a sourcemap in the stylesheets. This allows tools like Chrome's inspect to display the Sass module a particular style is located in.
 
 ---
+
+<br>
+
 ## Production
 
 ***Only production builds should be pushed to the GitHub repo.***
@@ -78,3 +95,5 @@ alias npm-p="npm run production"
 ```
 
 Production build minifies CSS and JavaScript and compresses image files.
+
+---
