@@ -14,7 +14,6 @@ The Development of new KCC website is based off of designer's mockups and uses o
 
 ---
 ## Requirements
----
 
  - Jekyll & Bundler:
 ```shell
@@ -32,17 +31,15 @@ $ npm install --global gulp-cli # mac users may need sudo
 
 ---
 ## Installation
----
 
 ```shell
 $ git clone https://github.com/KankakeeCommunityCollege/kcc-startup-template.git <project name>
 $ cd <project name>
-$ sh install.sh
+$ sh install.sh # install.sh runs bundle & npm installs, among a few other things.
 ```
 
 ---
 ## The Build
----
 
 Both production builds and dev builds use the run-p (running npm scripts in parallel) using [npm-run-all](https://www.npmjs.com/package/npm-run-all).
 
@@ -54,7 +51,6 @@ Both dev and production builds run two npm scripts in parallel: one starts the `
 
 ---
 ## Development
----
 
 ***Do NOT push dev builds to the GitHub repo.***
 
@@ -71,7 +67,6 @@ Dev builds also create a sourcemap in the stylesheets. This allows tools like Ch
 
 ---
 ## Production
----
 
 ***Only production builds should be pushed to the GitHub repo.***
 
