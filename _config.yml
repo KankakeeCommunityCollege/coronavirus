@@ -1,5 +1,5 @@
 title: "Kankakee Community College"
-google_analytics_key: UA-4328282-19
+public-url: "https://www.kcc.edu"
 collections:
   posts:
     output: false
