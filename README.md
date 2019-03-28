@@ -8,8 +8,11 @@
 
 The Development of new KCC website is based off of designer's mockups and uses open source technologies.
 
-***This README assumes you are using a modern macOS X system***
+***This README assumes you are using a modern macOS system***
 
+*The same setup can be achieved on Windows and Linux however, the requirements are different.*
+
+---
 ## Requirements
 ---
 
@@ -18,34 +21,65 @@ The Development of new KCC website is based off of designer's mockups and uses o
 $ gem install jekyll
 $ gem install bundler
 ```
- - Nodejs - I recommend using NVM (Node Version Manager): https://github.com/creationix/nvm
+ - Nodejs/npm - We use NVM (Node Version Manager): https://github.com/creationix/nvm
    - .nvmrc file in this repo will make NVM use Node v8.9.4 (to avoid compatibility issues)
    - Or, if you must - Use the Nodejs installer: https://nodejs.org/
 
  - Gulp:
 ```shell
-$ npm install --global gulp-cli` // mac users may need sudo
+$ npm install --global gulp-cli # mac users may need sudo
 ```
 
+---
 ## Installation
-	$ git clone https://github.com/KankakeeCommunityCollege/kcc-startup-template.git <project name>
-	$ cd <project name>
-	$ sh install.sh
+---
 
+```shell
+$ git clone https://github.com/KankakeeCommunityCollege/kcc-startup-template.git <project name>
+$ cd <project name>
+$ sh install.sh
+```
+
+---
+## The Build
+---
+
+Both production builds and dev builds use the run-p (running npm scripts in parallel) using [npm-run-all](https://www.npmjs.com/package/npm-run-all).
+
+Both dev and production builds run two npm scripts in parallel: one starts the `$ gulp` command, the other starts `$ npx webpack`.
+
+**A dev build** runs the default gulp task (i.e. with no `--production` flag) and Webpack passing the `--mode="development"` flag to Webpack.
+
+**A production build** runs gulp with the `--production` flag and Webpack with the `--mode=production` flag.
+
+---
 ## Development
-	$ gulp
+---
 
+***Do NOT push dev builds to the GitHub repo.***
+
+```shell
+$ npm run dev
+
+# This alias in your dotfiles is convenient:
+alias npm-d="npm run production"
+```
+
+Dev builds run quicker on your machine. They make un-minified CSS, JS, & images.
+
+Dev builds also create a sourcemap in the stylesheets. This allows tools like Chrome's inspect to display the Sass module a particular style is located in.
+
+---
 ## Production
-	`$ `
+---
+
+***Only production builds should be pushed to the GitHub repo.***
+
+```shell
+$ npm run production
+
+# Another convenient alias:
+alias npm-p="npm run production"
+```
 
 Production build minifies CSS and JavaScript and compresses image files.
-
-A gulp production build should be run before committing and pushing any CSS, JS, or new images to the Github repository.
-
-Trying to push non-minified CSS and JS may result in merge conflicts.  If you have a merge conflict, especially on main.css or all.min.js, try running `$ gulp --production` before trying to push again
-
-	$ gulp --production
-
-## The gulpfile.js and gulpconfig.yml
-
-See the comments within gulpfile.js and gulpconfig.yml for detailed explanation of what happens on running `$ gulp` or `$ gulp --production`
