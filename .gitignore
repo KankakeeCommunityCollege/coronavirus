@@ -1,5 +1,5 @@
 ### Ignore the Gemfile to keep it out of cloudcannon ###
-Gemfile
+# Gemfile
 
 ### General Apple things to ignore ###
 .DS_Store
