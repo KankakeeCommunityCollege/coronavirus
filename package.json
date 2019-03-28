@@ -22,7 +22,7 @@
     "acorn": "^6.1.1",
     "ajv": "^6.10.0",
     "babel-loader": "^8.0.5",
-    "browser-sync": "^2.13.0",
+    "browser-sync": "^2.26.3",
     "clean-webpack-plugin": "^2.0.1",
     "cross-spawn": "^5.1.0",
     "del": "^2.2.1",
