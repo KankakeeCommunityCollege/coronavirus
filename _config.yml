@@ -1,6 +1,7 @@
 title: "Kankakee Community College"
 public-url: "https://www.kcc.edu"
 theme: "kcc-gem-theme"
+google-tag_key: Google Tag Manager key goes here
 collections:
   posts:
     output: false

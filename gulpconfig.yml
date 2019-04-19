@@ -69,6 +69,7 @@ jekyll:
 watch: # 'Watch' for changes in all the following:
   images:
     - "assets/img/**/*"
+    - "uploads/**/*"
   sass: "assets/scss/**/*.scss"
   cmsScss: "assets/scss/**/*.scss"
   pages:
