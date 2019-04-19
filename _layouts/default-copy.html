@@ -1,15 +1,18 @@
-{% include document-head.html %}
-  {% include scripts/google-tag.html %}
-  {% include styles/fonts.html %}
-  {% include styles/vendor.html %}
-  {% include styles/main.html %}
-  {% include body.html %}
-  {% include scripts/google-noscript.html %}
-  {% include nav-global.html %}
-  {% include nav-local.html %}
+{% include copies/document-head.html %}
+  {% include copies/scripts/google-tag.html %}
+  {% include copies/styles/fonts.html %}
+  {% include copies/styles/vendor.html %}
+  {% include copies/styles/main.html %}
+  {% include copies/body.html %}
+  {% include copies/scripts/google-noscript.html %}
+  {% include copies/nav-global.html %}
+  {% include copies/nav-local.html %}
+  <!-- ===============================================
+  COPY OF THE DEFAULT LAYOUT USED BY THE GEM THEME
+  ================================================== -->
   {{ content }}
-  {% include footer.html %}
-  {% include scripts/vendor-cdn.html %}
-  {% include scripts/kcc-theme.html %}
-  {% include scripts/custom.html %}
-{% include foot.html %}
+  {% include copies/footer.html %}
+  {% include copies/scripts/vendor-cdn.html %}
+  {% include copies/scripts/kcc-theme.html %}
+  {% include copies/scripts/custom.html %}
+{% include copies/foot.html %}
