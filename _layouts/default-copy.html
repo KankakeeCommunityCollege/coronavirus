@@ -2,6 +2,13 @@
   {% include copies/scripts/google-tag.html %}
   {% include copies/styles/fonts.html %}
   {% include copies/styles/vendor.html %}
+  {% if page.sheet_key %}
+  <!-- dataTables stylesheets -->
+  <!-- dataTables Bootstrap4 themed stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css" crossorigin="anonymous">
+  <!-- dataTables "Responsive" extension stylesheet for bootstrap4 theme -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.2/css/responsive.bootstrap4.min.css" crossorigin="anonymous">
+  {% endif %}
   {% include copies/styles/main.html %}
   {% include copies/body.html %}
   {% include copies/scripts/google-noscript.html %}
@@ -14,5 +21,8 @@
   {% include copies/footer.html %}
   {% include copies/scripts/vendor-cdn.html %}
   {% include copies/scripts/kcc-theme.html %}
+  {% if page.sheet_key %}
+  {% include copies/scripts/table-cdn.html %}
+  {% endif %}
   {% include copies/scripts/custom.html %}
 {% include copies/foot.html %}
