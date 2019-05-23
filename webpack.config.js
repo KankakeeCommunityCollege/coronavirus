@@ -2,7 +2,7 @@ const path = require('path');
 const HashPlugin = require('hash-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
-module.exports = {
+const config = {
   mode: 'production',
   watch: true,
   //entry: path.join(__dirname, 'webpack', 'main'),
@@ -17,13 +17,12 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /.js$/,
+        test: /\.js$/,
         exclude: [
           path.resolve(__dirname, 'node_modules')
         ],
-        loader: 'babel-loader',
-        query: {
-          presets: ['@babel/preset-env']
+        use: {
+          loader: 'babel-loader'
         }
       }
     ]
@@ -36,3 +35,5 @@ module.exports = {
     extensions: ['.json', '.js', '.jsx']
   }
 };
+
+module.exports = config;
