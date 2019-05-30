@@ -1,23 +1,23 @@
 
-echo "Creating local Gemfile from Gemfile.txt"
+echo "Creating local Gemfile from Gemfile.txt" && echo ""
 
 sleep 1
 
 # Create local Gemfile from Gemfile.txt
 cp Gemfile.txt Gemfile
 
-echo "Running npm install"
+echo "" && echo "Running npm install" && echo ""
 
 sleep .5
 
-echo "NPM will return permission errors if you do not have NVM - https://github.com/creationix/nvm"
+echo "" && echo "NPM will return permission errors if you do not have NVM - https://github.com/creationix/nvm" && echo ""
 
 sleep 1
 
 # NPM install
 npm install
 
-echo "Running bundle install"
+echo "" && echo "Running bundle install" && echo ""
 
 sleep 1
 
@@ -33,13 +33,19 @@ if [ "$uname" = "Linux" ]
     # fix for node.js watch ENOSPC errors
     # increases the max number of system watchers on linux
     echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
-    echo "[LINUX]: Increase max watchers on Linux platforms"
+    echo "" && echo "[LINUX]: Increase max watchers on Linux platforms" && echo ""
     sleep 1
   else
-    echo "[Skipping](optional): Increase max watchers on Linux platforms. Your system: $uname"
+    echo "" && echo "[Skipping](optional): Increase max watchers on Linux platforms. Your system: $uname" && echo ""
 fi
 unset UNAME
 
 sleep 1
 
-echo "Installation Complete!"
+echo "" && echo "Removing kcc-startup-template's remote origin" && echo ""
+
+git remote remove origin
+
+sleep 1
+
+echo "" && echo "Installation Complete!" && echo ""
