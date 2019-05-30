@@ -6,6 +6,16 @@
 
 ---
 
+## TODO
+
+- [ ] `README.md` - replace "KCC Startup Template" with an appropriate title for this project.
+- [ ] `README.md` - replace "***A startup repo for creating new websites in the KCC website redesign project***" with an appropriate description for this project.
+- [ ] `package.json` - replace `"name": "kcc-startup"` with an appropriate name value.
+- [ ] `_config.yml` - replace `public-url: "https://www.kcc.edu"` with the appropriate sub-domain.
+- [ ] `_config.yml` - replace Google Tag Manager placeholder-text with a key: `google-tag_key: Google Tag Manager key goes here`.
+
+---
+
 <br>
 
 The Development of new KCC website is based off of designer's mockups and uses open source technologies.
