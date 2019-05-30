@@ -10,6 +10,7 @@
 
 ## TODO
 
+- [ ] At terminal, add the project's remote origin: `git remote add origin git@github.com:KankakeeCommunityCollege/<REPOSITORIES_NAME_IN_GITHUB>.git` 
 - [ ] `README.md` - replace "KCC Startup Template" with an appropriate title for this project.
 - [ ] `README.md` - replace "***A startup repo for creating new websites in the KCC website redesign project***" with an appropriate description for this project.
 - [ ] `package.json` - replace `"name": "kcc-startup"` with an appropriate name value.
