@@ -48,4 +48,10 @@ git remote remove origin
 
 sleep 1
 
-echo "" && echo "Installation Complete!" && echo ""
+echo "" && echo "Removing kcc-startup-template's git history" && echo ""
+
+git init
+
+sleep 1
+
+echo "" && echo "======== DONE ========" && echo "" && echo "Installation Complete!" && echo "" && echo "======================"
