@@ -6,6 +6,8 @@ collections:
   posts:
     output: false
     _hide_content: true
+  contacts:
+    output: false
 defaults:
 - scope:
     path: ''
