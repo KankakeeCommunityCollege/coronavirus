@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
+        
         <loc>styleguide.kcc.edu/</loc>
-        <lastmod>2019-06-26T20:22:48.097Z</lastmod>
+    
+        
+        <lastmod>2019-07-17T14:17:49.122Z</lastmod>
+    
     </url>
     <url>
+        
         <loc>styleguide.kcc.edu/landing-page/</loc>
-        <lastmod>2019-06-26T20:22:48.098Z</lastmod>
+    
+        
+        <lastmod>2019-07-17T14:17:49.122Z</lastmod>
+    
     </url>
     <url>
+        
         <loc>styleguide.kcc.edu/search/</loc>
-        <lastmod>2019-06-26T20:22:48.098Z</lastmod>
+    
+        
+        <lastmod>2019-07-17T14:17:49.123Z</lastmod>
+    
     </url>
 </urlset>
