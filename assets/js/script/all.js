@@ -1,2 +1,2 @@
 import './test.js';
-import './babelTest.js';
+//import './babelTest.js';
