@@ -68,3 +68,9 @@ _comments:
   sport_category: Sport for which news item pertains. Gets pulled into news rollup.
   news_thumb_image: Must be 16:9 ratio image. Preferably 200px wide.
   description: "Descriptions are seen by search engines like Google and displayed in search results"
+
+_options: # The CloudCannon options key
+  layout: # We don't want users changing these!!
+    hidden: true
+  baseurl: # We don't want users changing these!!
+    hidden: true
