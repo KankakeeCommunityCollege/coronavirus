@@ -8,7 +8,7 @@ const config = {
   watch: true,
   //entry: path.join(__dirname, 'webpack', 'main'),
   entry: {
-    'main': './assets/js/script/all.js',
+    'main': './assets/js/src/all.js',
     'slim': './assets/js/slim/slim.js'
   },
   output: {
