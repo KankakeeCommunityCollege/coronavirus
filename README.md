@@ -8,7 +8,7 @@
 
 <br>
 
-## TODO
+## Items TODO for Starting a New Project
 
 ### Terminal TODO:
 
