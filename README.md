@@ -51,6 +51,74 @@ You can find the kcc-gem-theme at https://rubygems.org/gems/kcc-gem-theme and on
 
 <br>
 
+## Develoment Environment
+
+### Xcode Command-Line Tools
+
+Install the Xcode command-line tools:
+
+```shell
+xcode-select --install
+```
+
+### [Homebrew](https://brew.sh/)
+
+Install homebrew:
+
+```shell
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+### GNUPG via Homebrew
+
+```shell
+brew install gnupg gnupg2
+```
+
+### [RVM](https://rvm.io/) & ruby-2.5.0
+
+```shell
+# Install the GPG keys
+gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+
+# Install RVM
+\curl -sSL https://get.rvm.io | bash -s stable
+```
+
+```shell
+# Install ruby-2.5.0
+rvm install ruby-2.5.0
+
+# Set ruby-2.5.0 as the default (loaded when bash is initiallized)
+rvm alias create default ruby-2.5.0
+```
+
+### [Node Version Mananger (NVM)](https://github.com/nvm-sh/nvm)
+
+```shell
+# Install NVM
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+
+# Make sure it works
+command -v nvm
+```
+
+```shell
+# Install Node.js via NVM
+nvm install 10.15.3
+# Set it as the default
+nvm alias default 10.15.3
+
+# Some older respositories run on Node.js v8.9.4
+nvm install 8.9.4
+# Make an alias for it
+nvm alias old 8.9.4
+```
+
+<br>
+
+---
+
 ## Requirements
 
  - Jekyll & Bundler:
