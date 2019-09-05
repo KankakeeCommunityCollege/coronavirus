@@ -74,6 +74,7 @@ watch: # 'Watch' for changes in all the following:
   cmsScss: "assets/scss/**/*.scss"
   pages:
     - "*.{md,html,yml,xml}" # watch the project root.
+    - "**/*.{md,html,yml,xml}" # Watch for pages in forlders.
     - "{_data,_includes,_layouts,_pages,_posts,_alerts,_contacts}/**/*.{md,html,yml,xml}" # watch standard jekyll dirs.
     # !exlclusions:
     # These are important exceptions that should be excluded from watching!
