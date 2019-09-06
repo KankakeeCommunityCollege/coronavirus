@@ -3,6 +3,7 @@ site_name: KCC Startup Template
 public-url: "https://www.kcc.edu"
 theme: "kcc-gem-theme"
 google-tag_key: Google Tag Manager key goes here
+#translate: true ## Uncomment to activate Google Translate Powers!!
 nav_links:
   - link_text: Home
     link_href: ''
@@ -91,3 +92,5 @@ _options: # The CloudCannon options key
     hidden: true
   baseurl: # We don't want users changing these!!
     hidden: true
+  translate:
+    hidden: true # Prevent CloudCannon Users from randomly turning translate on in their site.
