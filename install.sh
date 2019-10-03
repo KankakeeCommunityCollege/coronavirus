@@ -1,3 +1,4 @@
+#!/bin/bash
 
 echo "Creating local Gemfile from Gemfile.txt" && echo ""
 
