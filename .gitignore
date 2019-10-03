@@ -32,7 +32,8 @@ _site
 .sass-cache
 .jekyll-metadata
 
-# Ignore node modules
+# Ignore npm things
+package-lock.json
 node_modules/
 
 # Ignore gem lock to avoid mac/windows discrepencies
@@ -50,3 +51,6 @@ yarn-error.log
 # Ye Olde Gulp tasks from an API long, long ago, in a galaxy far, far away:
 old-gulp-tasks/
 old.gulpfile.js
+
+# Jekyll 4's new cache dir
+.jekyll-cache/
