@@ -75,6 +75,8 @@ exclude:
   - "webpack.config.js"
   - "install.sh"
   - "siteicon.png"
+  - "page-startups"
+  - "UPDATE_PROCEDURE.md"
 
 uploads_dir: # specifies the default uploads directory for CloudCannon
   - "uploads/"
