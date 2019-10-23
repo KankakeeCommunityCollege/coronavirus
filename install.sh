@@ -1,10 +1,4 @@
-
-echo "Creating local Gemfile from Gemfile.txt" && echo ""
-
-sleep 1
-
-# Create local Gemfile from Gemfile.txt
-cp Gemfile.txt Gemfile
+#!/bin/bash/
 
 echo "" && echo "Running npm install" && echo ""
 
