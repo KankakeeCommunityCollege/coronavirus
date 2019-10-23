@@ -19,7 +19,7 @@
   },
   "browserslist": [
     "defaults",
-    "ie >=9",
+    "ie >=11",
     "not ie <= 8",
     "not ie_mob <= 8"
   ],
@@ -67,5 +67,18 @@
   "dependencies": {
     "core-js": "^3.1.4",
     "regenerator-runtime": "^0.13.2"
+  },
+  "comments": {
+    "babel": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "useBuiltIns": "Set 'useBuiltIns': 'usage' for polyfilling es6 only by what is used and according to the browserlist settings.",
+            "debug": "Set 'debug': true, to see verbose '@babel/preset-env' output at terminal."
+          }
+        ]
+      ]
+    }
   }
 }
