@@ -69,7 +69,7 @@ Install homebrew:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-### GNUPG via Homebrew
+### GNUPG
 
 ```shell
 brew install gnupg gnupg2
