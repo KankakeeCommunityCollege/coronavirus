@@ -141,10 +141,36 @@ $ npm install --global gulp-cli # mac users may need sudo
 
 ## Installation
 
+> This project has two different possible installations methods 
+
+---
+
+- To use this project as a starting point for creating a new site, use the instructions for "Installation - for Creating a New Project".
+- To work on development for this "kcc-startup-template" repo use the steps in "Installation - for Template Development".
+
+---
+
+<br>
+
+### Installation - for Creating a New Project
+
 ```shell
-$ git clone https://github.com/KankakeeCommunityCollege/kcc-startup-template.git <project name>
-$ cd <project name>
+$ git clone https://github.com/KankakeeCommunityCollege/kcc-startup-template.git <NEW_PROJECT_NAME>
+$ cd <NEW_PROJECT_NAME>
 $ sh install.sh # install.sh runs bundle & npm installs, among a few other things.
+```
+
+---
+
+<br>
+
+### Installation - for Template Development
+
+
+```shell
+$ git clone https://github.com/KankakeeCommunityCollege/kcc-startup-template.git
+$ cd kcc-startup-template
+$ sh install_template.sh # install.sh runs bundle & npm installs, among a few other things.
 ```
 
 ---

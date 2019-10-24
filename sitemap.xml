@@ -1,59 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
-
+        
         <loc>styleguide.kcc.edu/</loc>
-
-
-        <lastmod>2019-10-23T19:30:54.784Z</lastmod>
-
+    
+        
+        <lastmod>2019-10-24T13:00:28.959Z</lastmod>
+    
     </url>
     <url>
-
+        
         <loc>styleguide.kcc.edu/landing-page/</loc>
-
-
-        <lastmod>2019-10-23T19:30:54.784Z</lastmod>
-
+    
+        
+        <lastmod>2019-10-24T13:00:28.959Z</lastmod>
+    
     </url>
     <url>
-
+        
         <loc>styleguide.kcc.edu/search/</loc>
-
-
-        <lastmod>2019-10-23T19:30:54.784Z</lastmod>
-
+    
+        
+        <lastmod>2019-10-24T13:00:28.959Z</lastmod>
+    
     </url>
     <url>
-
+        
         <loc>styleguide.kcc.edu/thank-you/</loc>
-
-
-        <lastmod>2019-10-23T19:30:54.785Z</lastmod>
-
-    </url>
-    <url>
-
-        <loc>styleguide.kcc.edu/page-startups/default/</loc>
-
-
-        <lastmod>2019-10-23T19:30:54.783Z</lastmod>
-
-    </url>
-    <url>
-
-        <loc>styleguide.kcc.edu/page-startups/landing-page/</loc>
-
-
-        <lastmod>2019-10-23T19:30:54.784Z</lastmod>
-
-    </url>
-    <url>
-
-        <loc>styleguide.kcc.edu/page-startups/sub-nav/</loc>
-
-
-        <lastmod>2019-10-23T19:30:54.785Z</lastmod>
-
+    
+        
+        <lastmod>2019-10-24T13:00:28.959Z</lastmod>
+    
     </url>
 </urlset>
