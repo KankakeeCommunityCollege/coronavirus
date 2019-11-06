@@ -4,7 +4,6 @@ const HashPlugin = require('hash-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const config = {
-  mode: 'production',
   watch: true,
   //entry: path.join(__dirname, 'webpack', 'main'),
   entry: {
