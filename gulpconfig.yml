@@ -18,7 +18,7 @@ copy:
   # Paths to static assets that aren't (S)CSS or JavaScript
   # because these are completely handled by the sass and javascript tasks.
   assets:
-    - "assets/**/*"
+    - "assets/img/*"
     # exclusions: (Don't copy these items because they are handled by other gulp tasks):
     - "!assets/{js,scss,css}/**/*"   # js, scss and css files
     - "!assets/css{,/**}"            # css dir
@@ -29,11 +29,6 @@ copy:
 
 # Main Gulp Sass task (for main.css).
 sass:
-  # Autoprefixer will make sure your CSS works with these browsers
-  compatibility:    # These are pretty standard autoprefixer compatibility settings
-    - "last 2 versions"
-    - "ie >= 9"
-    - "defaults"
   dest:
     jekyllRoot: "assets/css/"
     buildDir: "_site/assets/css/"
@@ -42,10 +37,6 @@ sass:
 
 # Gulp task to create stylesheet for custom options in CloudCannon (CMS customizations). Editors can use these styles as option in the CMS.
 cmsScss:
-  compatibility:
-    - "last 2 versions"
-    - "ie >= 9"
-    - "defaults"
   dest:
     jekyllRoot: "assets/css/"
     buildDir: "_site/assets/css/"
