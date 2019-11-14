@@ -40,8 +40,6 @@ collections:
     output: false
   accordions:
     output: false
-  data:
-    _unlisted: true
 defaults:
 - scope:
     path: ''
