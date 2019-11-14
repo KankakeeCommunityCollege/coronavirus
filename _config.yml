@@ -12,6 +12,9 @@ nav_links:
   - link_text: Landing Page
     link_href: 'landing-page'
     button: false
+  - link_text: Accordion
+    link_href: accordion
+    button: false
 #  - link_text: Example External Link
 #    link_href: 'https://example-external-link.com'
 #    button: false
@@ -34,6 +37,8 @@ collections:
     output: false
     _hide_content: true
   contacts:
+    output: false
+  accordions:
     output: false
 defaults:
 - scope:
