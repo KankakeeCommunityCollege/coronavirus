@@ -141,7 +141,7 @@ $ npm install --global gulp-cli # mac users may need sudo
 
 ## Installation
 
-> This project has two different possible installations methods 
+> This project has two different possible installations methods
 
 ---
 
@@ -155,9 +155,10 @@ $ npm install --global gulp-cli # mac users may need sudo
 ### Installation - for Creating a New Project
 
 ```shell
-$ git clone https://github.com/KankakeeCommunityCollege/kcc-startup-template.git <NEW_PROJECT_NAME>
-$ cd <NEW_PROJECT_NAME>
-$ sh install.sh # install.sh runs bundle & npm installs, among a few other things.
+git clone https://github.com/KankakeeCommunityCollege/kcc-startup-template.git <NEW_PROJECT_NAME>
+cd <NEW_PROJECT_NAME>
+cp ruby-version.txt .ruby-version && nvm use && rvm use # Ensures you are using the correct versions prior to install.
+sh install.sh # install.sh runs bundle & npm installs, among a few other things.
 ```
 
 ---
@@ -170,6 +171,7 @@ $ sh install.sh # install.sh runs bundle & npm installs, among a few other thing
 ```shell
 $ git clone https://github.com/KankakeeCommunityCollege/kcc-startup-template.git
 $ cd kcc-startup-template
+cp ruby-version.txt .ruby-version && nvm use && rvm use # Ensures you are using the correct versions prior to install.
 $ sh install_template.sh # install.sh runs bundle & npm installs, among a few other things.
 ```
 
