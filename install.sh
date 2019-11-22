@@ -1,5 +1,14 @@
 #!/bin/bash/
 
+while true; do
+    read -p "Did you run 'cp ruby-version.txt .ruby-version && rvm use && nvm use'? [Y/N]: " yn
+    case $yn in
+        [Yy]* ) echo "" && echo "Proceeding with install" && echo ""; break;;
+        [Nn]* ) exit;;
+        * ) echo "" && echo "Please answer yes or no." && echo "";;
+    esac
+done
+
 echo "" && cowsay "Running npm install" && echo ""
 
 sleep .5
