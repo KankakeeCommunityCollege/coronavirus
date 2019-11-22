@@ -38,3 +38,6 @@ Gemfile.lock
 
 # Jekyll 4's new cache dir
 .jekyll-cache/
+
+## DONT COMMIT THIS IT WILL BREAK CLOUDCANNON
+.ruby-version
