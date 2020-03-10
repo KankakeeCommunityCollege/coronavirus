@@ -82,6 +82,7 @@ exclude:
   - "siteicon.png"
   - "page-startups"
   - "UPDATE_PROCEDURE.md"
+  - "ruby-version.txt"
 
 uploads_dir: # specifies the default uploads directory for CloudCannon
   - "uploads/"
