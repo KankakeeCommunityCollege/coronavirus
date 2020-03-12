@@ -24,14 +24,38 @@ img.center-image {
   margin: 10px;
 }
 
-.align-left {
-  text-align: left;
+// Content Headings
+h2.typography__h2 {
+  color: $color-grey-heading;
+  font-family: $font-family-headings;
+  font-size: 2rem;
+  font-weight: $font-weight-boldish;
 }
 
-.align-right {
-  text-align: right;
+h3.typography__h3 {
+  color: $primary-blue;
+  font-family: $font-family-headings;
+  font-size: 1.75rem;
+  font-weight: $font-weight-bolder;
 }
 
-.center-this-text {
-  text-align: center;
+h4.typography__h4 {
+  color: $primary-red;
+  font-family: $font-family-headings;
+  font-size: 1.7rem;
+  font-weight: $font-weight-bolder;
+}
+
+h5.typography__h5 {
+  color: $color-grey-heading;
+  font-family: $font-family-headings;
+  font-weight: $font-weight-bold;
+  font-size: 1.5rem;
+}
+
+h6.typography__h6 {
+  color: $color-grey-heading;
+  font-family: $font-family-headings;
+  font-weight: $font-weight-bold;
+  font-size: 1.4rem;
 }
