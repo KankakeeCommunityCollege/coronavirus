@@ -5,15 +5,14 @@ url: 'URL is needed for robots.txt to work properly' ## NO TRAILING SLASHES!!/<-
 theme: "kcc-gem-theme"
 google-tag_key: Google Tag Manager key goes here
 #translate: true ## Uncomment to activate Google Translate Powers!!
+nav_config:
+  smaller_brand: true
 nav_links:
-  - link_text: Home
-    link_href: ''
+  - link_text: FAQ
+    link_href: 'faq'
     button: false
-  - link_text: Landing Page
-    link_href: 'landing-page'
-    button: false
-  - link_text: Accordion
-    link_href: accordion
+  - link_text: Contact Us
+    link_href: 'contact-us'
     button: false
 #  - link_text: Example External Link
 #    link_href: 'https://example-external-link.com'

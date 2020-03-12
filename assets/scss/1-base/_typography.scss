@@ -1,2 +1,24 @@
 // Typography styles (site specific)
 // ===============================
+
+.typography__nav-heading--smaller {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 360px) {
+  .typography__nav-heading--smaller {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .typography__nav-heading--smaller {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .typography__nav-heading--smaller {
+    font-size: 2.2rem;
+  }
+}
