@@ -103,4 +103,23 @@ _options: # The CloudCannon options key
   translate:
     hidden: true # Prevent CloudCannon Users from randomly turning translate on in their site.
   content:
+    format: p h2 h3 h4 h5 h6 pre address div
+    bold: true
+    italic: true
+    underline: true
+    subscript: true
+    superscript: true
+    indent: true
+    outdent: true
+    image: true
+    table: true
+    left: align-left
+    center: center-this-text
+    right: align-right
+    removeformat: true
+    link: true
+    numberedlist: true
+    bulletedlist: true
+    undo: true
+    redo: true
     styles: /assets/css/content.css
