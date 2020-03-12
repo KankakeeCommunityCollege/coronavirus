@@ -1,5 +1,5 @@
 title: "Kankakee Community College"
-site_name: Student Resources
+site_name: "Coronavirus (COVID-19) Response"
 public-url: "https://www.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
 url: 'URL is needed for robots.txt to work properly' ## NO TRAILING SLASHES!!/<--nope
 theme: "kcc-gem-theme"
