@@ -29,35 +29,35 @@ img.center-image {
   margin: 10px;
 }
 
-h2.typography__h2 {
+h2.typography-h2 {
   color: #666;
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   font-weight: 500;
 }
 
-h3.typography__h3 {
+h3.typography-h3 {
   color: #0f3b63;
   font-family: "Roboto", sans-serif;
   font-size: 1.75rem;
   font-weight: 600;
 }
 
-h4.typography__h4 {
+h4.typography-h4 {
   color: #c61f48;
   font-family: "Roboto", sans-serif;
   font-size: 1.7rem;
   font-weight: 600;
 }
 
-h5.typography__h5 {
+h5.typography-h5 {
   color: #666;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
 }
 
-h6.typography__h6 {
+h6.typography-h6 {
   color: #666;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
