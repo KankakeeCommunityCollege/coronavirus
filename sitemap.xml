@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
-        
+
         <loc>styleguide.kcc.edu/</loc>
-    
-        
-        <lastmod>2020-03-12T20:06:53.628Z</lastmod>
-    
+
+
+        <lastmod>2020-03-12T20:13:10.828Z</lastmod>
+
     </url>
     <url>
-        
-        <loc>styleguide.kcc.edu/contact-us/</loc>
-    
-        
-        <lastmod>2020-03-12T20:06:53.628Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>styleguide.kcc.edu/faq/</loc>
-    
-        
-        <lastmod>2020-03-12T20:06:53.628Z</lastmod>
-    
-    </url>
-    <url>
-        
+
         <loc>styleguide.kcc.edu/search/</loc>
-    
-        
-        <lastmod>2020-03-12T20:06:53.628Z</lastmod>
-    
+
+
+        <lastmod>2020-03-12T20:13:10.828Z</lastmod>
+
     </url>
 </urlset>
