@@ -102,3 +102,5 @@ _options: # The CloudCannon options key
     hidden: true
   translate:
     hidden: true # Prevent CloudCannon Users from randomly turning translate on in their site.
+  content:
+    styles: /assets/css/content.css
