@@ -68,7 +68,7 @@ function cmsScss() {
 
   return gulp.src(config.cmsScss.src)
     .pipe(sourcemaps.init())
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
     .pipe(gulp.dest(config.cmsScss.dest.jekyllRoot))
     .pipe(gulp.dest(config.cmsScss.dest.buildDir))
     .pipe(browserSync.stream());
