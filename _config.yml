@@ -1,6 +1,6 @@
 title: "Kankakee Community College"
 site_name: "Coronavirus (COVID-19) Response"
-public-url: "https://www.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
+public-url: "http://www.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
 url: 'URL is needed for robots.txt to work properly' ## NO TRAILING SLASHES!!/<--nope
 theme: "kcc-gem-theme"
 google-tag_key: Google Tag Manager key goes here
@@ -10,6 +10,9 @@ nav_config:
 nav_links:
   - link_text: Contact Us
     link_href: 'contact-us'
+    button: false
+  - link_text: FAQ
+    link_href: 'faq'
     button: false
 #  - link_text: Example External Link
 #    link_href: 'https://example-external-link.com'
