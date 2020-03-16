@@ -1,5 +1,4 @@
 ---
-accordion_page: 'Coronavirus (COVID-19) Response'
 card_heading: 'Message to students regarding coronavirus'
 order: 2
 ---
