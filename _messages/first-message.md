@@ -1,5 +1,4 @@
 ---
-accordion_page: 'Coronavirus (COVID-19) Response'
 card_heading: 'A message from Kankakee Community College'
 order: 4
 ---

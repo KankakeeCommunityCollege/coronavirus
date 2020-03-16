@@ -32,12 +32,7 @@ nav_links:
 #    link_href: 'reference/cloudcannon'
 #
 collections:
-  posts:
-    output: false
-    _hide_content: true
-  contacts:
-    output: false
-  accordions:
+  messages:
     output: false
 defaults:
 - scope:

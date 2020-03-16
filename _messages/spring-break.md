@@ -1,5 +1,4 @@
 ---
-accordion_page: 'Coronavirus (COVID-19) Response'
 card_heading: 'Returning from Spring Break to KCC'
 order: 3
 ---
