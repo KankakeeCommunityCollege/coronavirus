@@ -3,6 +3,9 @@
     <a href="cloudcannon:collections/_messages/" class="btn btn-success editor-button">Edit Messages Collection</a>
   </div>
 </div>
+<div class="editable">
+  <p>&nbsp;</p>
+</div>
 <div id="accordion" class="accordion">
   {% assign message_collection = site.messages | sort: "order" %}
   {% for item in message_collection %}
