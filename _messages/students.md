@@ -1,6 +1,6 @@
 ---
 card_heading: 'Message to students regarding coronavirus'
-order: 3
+order: 4
 ---
 
 <p><strong>POSTED ON: 03/12/20</strong></p>
