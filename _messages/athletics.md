@@ -1,6 +1,6 @@
 ---
 card_heading: 'KCC athletics games and practices are postponed'
-order: 2
+order: 3
 ---
 
 <p><strong>POSTED ON: 03/12/20</strong></p>
