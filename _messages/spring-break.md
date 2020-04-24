@@ -1,6 +1,6 @@
 ---
 card_heading: 'Returning from Spring Break to KCC'
-order: 5
+order: 6
 ---
 
 <p><strong>POSTED ON: 03/11/20</strong></p>

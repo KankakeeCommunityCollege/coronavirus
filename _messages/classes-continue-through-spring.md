@@ -1,6 +1,6 @@
 ---
 card_heading: 'Classes continue online through spring'
-order: 1
+order: 2
 ---
 
 <p><strong>POSTED ON: 03/20/20</strong></p>

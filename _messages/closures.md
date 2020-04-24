@@ -1,6 +1,6 @@
 ---
 card_heading: 'Message to KCC students - Campus closure'
-order: 2
+order: 3
 ---
 
 <p><strong>POSTED ON: 03/16/20</strong></p>
