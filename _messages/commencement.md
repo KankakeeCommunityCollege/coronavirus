@@ -1,6 +1,6 @@
 ---
 card_heading: 'Message about Commencement 2020'
-order: 1
+order: 2
 ---
 
 <p><strong>POSTED ON: 04/06/20</strong></p>
