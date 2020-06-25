@@ -1,6 +1,6 @@
 ---
 card_heading: 'A message from Kankakee Community College'
-order: 8
+order: 9
 posted: 3/5/20
 ---
 

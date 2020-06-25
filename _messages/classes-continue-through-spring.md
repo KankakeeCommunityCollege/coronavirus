@@ -1,6 +1,6 @@
 ---
 card_heading: 'Classes continue online through spring'
-order: 3
+order: 4
 posted: 03/20/20
 ---
 
