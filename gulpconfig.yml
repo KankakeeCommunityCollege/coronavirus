@@ -52,7 +52,7 @@ sitemap:
     - "_site/**/*.pdf" # Yes, PDF's too.
     - "_site/**/**/*.pdf"
   notification: "Running sitemap"
-  siteUrl: "styleguide.kcc.edu"
+  siteUrl: "https://coronavirus.kcc.edu"
 
 jekyll:
   notification: "Running jekyll"
