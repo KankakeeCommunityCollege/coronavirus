@@ -3,9 +3,6 @@
     <a href="cloudcannon:collections/_messages/" class="btn btn-success editor-button">Edit Messages Collection</a>
   </div>
 </div>
-<div class="editable">
-  <h3 class="typography__h3">Previous messages</h3>
-</div>
 <div id="accordion" class="accordion">
   {% assign message_collection = site.messages | sort: "order" %}
   {% for item in message_collection %}
@@ -13,7 +10,7 @@
     <div class="card-header accordion__padding-left" id="cardHeader{{ forloop.index }}">
         <h2 class="mb-0 accordion__typography--card-header accordion__typography--hover">
           <button class="btn btn-link buttons__no-decoration accordion__button{% if forloop.first != true %} collapsed{% endif %}{% if forloop.first == true and page.accordion_expanded == false %} collapsed{% endif %}" type="button" data-target="#collapse{{ forloop.index }}" data-toggle="collapse" aria-expanded="{% if forloop.first == true and page.accordion_expanded != false %}true{% else %}false{% endif %}" aria-controls="collapse{{ forloop.index }}">
-            {{ item.card_heading }}
+            {{ item.card_heading }} - {{ item.posted }}
           </button>
         </h2>
     </div>
