@@ -14,6 +14,15 @@ nav_links:
   - link_text: FAQ
     link_href: 'faq'
     button: false
+  - link_text: 'KCC Resources'
+    link_href: 'kcc-resources'
+    button: false
+  - link_text: 'COVID-19 Resources'
+    link_href: 'covid-19-resources'
+    button: false
+  - link_text: 'Archived messages'
+    link_href: 'archived-messages'
+    button: false
 #  - link_text: Example External Link
 #    link_href: 'https://example-external-link.com'
 #    button: false

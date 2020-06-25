@@ -1,6 +1,7 @@
 ---
 card_heading: 'Returning from Spring Break to KCC'
 order: 7
+posted: 03/11/2020
 ---
 
 <p><strong>POSTED ON: 03/11/20</strong></p>

@@ -1,6 +1,7 @@
 ---
 card_heading: 'Message to KCC students - Campus closure'
 order: 4
+posted: 03/16/20
 ---
 
 <p><strong>POSTED ON: 03/16/20</strong></p>

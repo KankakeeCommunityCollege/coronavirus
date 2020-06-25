@@ -1,6 +1,7 @@
 ---
 card_heading: 'Shelter-In-Place Order Extended'
 order: 1
+posted: 04/24/2020
 ---
 
 <p><strong>POSTED ON: 04/24/20</strong></p>
