@@ -1,6 +1,6 @@
 ---
 card_heading: 'Message about Commencement 2020'
-order: 2
+order: 3
 posted: 04/06/20
 ---
 

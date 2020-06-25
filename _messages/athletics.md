@@ -1,6 +1,6 @@
 ---
 card_heading: 'KCC athletics games and practices are postponed'
-order: 5
+order: 6
 posted: 03/12/20
 ---
 
