@@ -1,8 +1,7 @@
-import test from './test.js';
 import toggleButton from './toggleButton.js';
-//import './babelTest.js';
+import start from './sheetsApiCall.js';
 
 document.addEventListener('DOMContentLoaded', function() {
-  test();
   toggleButton();
+  gapi.load('client', start);
 });
