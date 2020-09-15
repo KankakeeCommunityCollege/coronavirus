@@ -6,8 +6,7 @@ const GAPI_PARAMS = {
 };
 const SHEET_PARAMS = {
   spreadsheetId: '1JDL9QfTqQ1zAVz50gf74WhYuu0QvyG9X-6ESJiddA9Q',
-  range: 'Sheet1!B4:C8',
-  includeGridData: true
+  range: 'Sheet1!B4:C8'
 };
 const errorResponse = `
 <div class="m-3 p-3">
