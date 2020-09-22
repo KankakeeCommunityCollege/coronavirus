@@ -5,7 +5,7 @@ const GAPI_PARAMS = {
   'discoveryDocs': ['https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest']
 };
 const SHEET_PARAMS = {
-  spreadsheetId: '1JDL9QfTqQ1zAVz50gf74WhYuu0QvyG9X-6ESJiddA9Q',
+  spreadsheetId: '2JDL9QfTqQ1zAVz50gf74WhYuu0QvyG9X-6ESJiddA9Q',
   range: 'Sheet1!B4:C8'
 };
 const errorResponse = `
@@ -26,10 +26,11 @@ function start() {
 
   gapi.client.init(GAPI_PARAMS).then(() => {
       return gapi.client.sheets.spreadsheets.values.get(SHEET_PARAMS);
-  }).then( response => {
+  }).then( (response) => {
     injectTableValues(response);
-  }, err => {  // Catch errors thrown by googleapi or a failed attempt at getting the sheet.
-    console.error("Execute error", err);
+  }, (err) => {  // Catch errors thrown by googleapi, or a failed attempt at getting the sheet.
+    // Error message is located in `response.result.error.message` for a Sheets response.
+    console.error(`Google API Execution Error: \n${err.result.error.message} \nError Code: ${err.result.error.code} \n\nFull Response Object:`, err);
     document.querySelector('.table__wrapper').innerHTML = errorResponse;
   });
 }
