@@ -5,6 +5,7 @@ url: 'URL is needed for robots.txt to work properly' ## NO TRAILING SLASHES!!/<-
 theme: "kcc-gem-theme"
 google-tag_key: Google Tag Manager key goes here
 #translate: true ## Uncomment to activate Google Translate Powers!!
+# Comment added to test GH notifications <----- DELETE ME if you see me.
 nav_config:
   smaller_brand: true
 nav_links:
