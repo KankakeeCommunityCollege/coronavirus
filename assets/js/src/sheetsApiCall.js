@@ -5,7 +5,7 @@ const GAPI_PARAMS = {
   'discoveryDocs': ['https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest']
 };
 const SHEET_PARAMS = {
-  spreadsheetId: '2JDL9QfTqQ1zAVz50gf74WhYuu0QvyG9X-6ESJiddA9Q',
+  spreadsheetId: '1JDL9QfTqQ1zAVz50gf74WhYuu0QvyG9X-6ESJiddA9Q',
   range: 'Sheet1!B4:C8'
 };
 const errorResponse = `
