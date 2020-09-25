@@ -13,8 +13,9 @@ const errorResponse = `
   <div class="card">
     <div class="card-body">
       <h5 class="typography__h5">Whoops!</h5>
-      <p><strong>It looks like something went wrong while trying to retrieve the COVID-19 Confirmed Case data</strong></p>
-      <p>Please, try <a href="#" onclick="window.location.reload()">reloading the page</a> to retrieve the data, or try a modern browser like Google Chrome or Mozilla FireFox.</p>
+      <p><strong>It looks like something went wrong while trying to retrieve the COVID-19 Confirmed Case data.</strong></p>
+      <p>Please, try <a href="#" onclick="window.location.reload()">reloading the page</a> to retrieve the data, or try a modern browser like <a href="https://www.google.com/chrome/" target="_blank" rel="noopener norefferer">Google Chrome</a> or <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank" rel="noopener norefferer">Mozilla FireFox</a>.</p>
+      <p>If the problem persists, please contact <a href="mailto:webservices@kcc.edu">webservices@kcc.edu</a></p>
     </div>
   </div>
 </div>
