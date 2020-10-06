@@ -1,13 +1,19 @@
 import injectTableValues from './injectTableValues.js'; // Builds the Google Sheet results into the Table on the page.
+import injectLastModDate from './injectLastModDate.js';
 
-const GAPI_PARAMS = {
-  'apiKey': 'AIzaSyCEBsbXfFcdbkASlg-PodD1rT_Fe3Nw62A',
-  'discoveryDocs': ['https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest']
-};
 const SHEET_PARAMS = {
   spreadsheetId: '1JDL9QfTqQ1zAVz50gf74WhYuu0QvyG9X-6ESJiddA9Q',
-  range: 'Sheet1!B4:C8'
+  range: 'Sheet1!B4:C7'
 };
+const CLIENT_PARAMS = {
+  'apiKey': 'AIzaSyA8LOs7BC9Hl_ibwdGd9DSQKINcWRcuu1o',
+  'discoveryDocs':['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest', 'https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest'],
+  'scopes': ['https://www.googleapis.com/auth/drive.readonly', 'https://www.googleapis.com/auth/drive.metadata.readonly']
+};
+const DRIVE_PARAMS = {
+  'fileId': '1JDL9QfTqQ1zAVz50gf74WhYuu0QvyG9X-6ESJiddA9Q',
+  'fields': '*'
+}
 const errorResponse = `
 <div class="m-3 p-3">
   <div class="card">
@@ -25,13 +31,18 @@ function start() {
   if (! document.getElementById('trackerTable') ) // Only proceed if this element exists in the page.
     return;
 
-  gapi.client.init(GAPI_PARAMS).then(() => {
-      return gapi.client.sheets.spreadsheets.values.get(SHEET_PARAMS);
-  }).then( (response) => {
+  gapi.client.init(CLIENT_PARAMS).then(() => {
+    return gapi.client.sheets.spreadsheets.values.get(SHEET_PARAMS);
+  }).then(response => {
     injectTableValues(response);
+  }).then(() => {
+    return gapi.client.drive.files.get(DRIVE_PARAMS);  // Have to use Drive API v3 to get the sheet's 'modifiedTime'
+  }).then(response => {
+    console.log(response);
+    injectLastModDate(response);
   }, (err) => {  // Catch errors thrown by googleapi, or a failed attempt at getting the sheet.
     // Error message is located in `response.result.error.message` for a Sheets response.
-    console.error(`Google API Execution Error: \n${err.result.error.message} \nError Code: ${err.result.error.code} \n\nFull Response Object:`, err);
+    console.error(`Google API execution error \n\nError message: ${err.result.error.message} \nError type: ${err.result.error.code} \nFull response: `, err);
     document.querySelector('.table__wrapper').innerHTML = errorResponse;
   });
 }
