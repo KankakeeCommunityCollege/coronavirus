@@ -1,5 +1,5 @@
 
-const TABLE_SPAN_ID_ARRAY = [['weekOf', 'cumulative'], ['currentStudents', 'cumulativeStudents'], ['currentEmployees', 'cumulativeEmployees'], ['currentTotal', 'cumulativeTotal'], ['lastUpdated']];
+const TABLE_SPAN_ID_ARRAY = [['weekOf', 'cumulative'], ['currentStudents', 'cumulativeStudents'], ['currentEmployees', 'cumulativeEmployees'], ['currentTotal', 'cumulativeTotal']];
 // the TABLE_SPAN_ID_ARRAY is an array of arrays—it essentially mirrors the Google Sheet.
 // Only, the values in this array, correspond to a <span> element's ID in the table's HTML.
 function injectValIntoEl(val, elIdString) {
