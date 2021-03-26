@@ -15,6 +15,9 @@ nav_links:
   - link_text: FAQ
     link_href: 'faq'
     button: false
+  - link_text: Vaccination
+    link_href: 'vaccination'
+    button: false
   - link_text: 'KCC Resources'
     link_href: 'kcc-resources'
     button: false
