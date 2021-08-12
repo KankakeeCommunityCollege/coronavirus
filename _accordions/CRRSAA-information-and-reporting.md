@@ -19,9 +19,9 @@ HEERF II grants can be used for any component of a student’s cost of attendanc
 #### Eligibility
 {: .typography__h4.links__offset}
 
-- Be a U.S. citizen or [eligible non-citizen](https://studentaid.gov/help/eligible-noncitizen){: target='_blank' rel='noopener noreferrer' } (DACA, undocumented, and international students are not eligible to receive funding)
-- Be a currently registered student during payment periods at Kankakee Community College during the COVID-19 national emergency
-- Certify you have incurred expenses related to the coronavirus on or after March 13, 2020
+* Be a U.S. citizen or [eligible non-citizen](https://studentaid.gov/help/eligible-noncitizen){: target="_blank" rel="noopener noreferrer"} (DACA, undocumented, and international students are not eligible to receive funding)
+* Be a currently registered student during payment periods at Kankakee Community College during the COVID-19 national emergency
+* Certify you have incurred expenses related to the coronavirus on or after March 13, 2020
 
 #### Frequently Asked Questions
 {: .typography__h4.links__offset}
@@ -29,7 +29,7 @@ HEERF II grants can be used for any component of a student’s cost of attendanc
 **Is there an application required?**
 {: .mb-0}
 
-Yes, a HEERF II application is required. Eligible students will receive an application link to their student email account or can access the [HEERF II Application form](https://form.jotform.com/210905394807964){: target='_blank' rel='noopener noreferrer' }.
+Yes, a HEERF II application is required. Eligible students have already been awarded.&nbsp;
 
 **How will I know if I am approved?**
 {: .mb-0}
@@ -44,7 +44,7 @@ No, this does not impact your financial aid.
 **If I am approved, will the funds be applied to my tuition and fees if I owe an outstanding balance?**
 {: .mb-0}
 
-**KCC will only apply HEERF II grant funds towards any outstanding balance you owe if you indicated you needed assistance with tuition & fees or bookstore charges on your application.**
+KCC will only apply HEERF II grant funds towards any outstanding balance you owe if you indicated you needed assistance with tuition & fees or bookstore charges on your application.
 
 **How will students receive HEERF II Grant funds?**
 {: .mb-0}
@@ -70,13 +70,12 @@ If you have questions or need more information, call or email KCC’s Office of 
 {: .typography__h3.links__offset}
 
 #### Emergency Financial Aid Grants to Students
-{: .typography__h4.links__offset }
+{: .typography__h4.links__offset}
 
-- [Quarter 1 Report for HEERF II CRRSAA](./uploads/pdf/Quarter%201%20Report%20for%20HEERF%20II%20CRRSAA.pdf){: target='_blank' rel='noopener noreferrer' }
-- [Quarter 2 Report for HEERF II CRRSAA](./uploads/pdf/Quarter%202%20Report%20for%20HEERF%20II%20CRRSAA.pdf){: target='_blank' rel='noopener noreferrer' }
+* [Quarter 1 Report for HEERF II CRRSAA](./uploads/pdf/Quarter%201%20Report%20for%20HEERF%20II%20CRRSAA.pdf){: target="_blank" rel="noopener noreferrer"}
+* [Quarter 2 Report for HEERF II CRRSAA](./uploads/pdf/Quarter%202%20Report%20for%20HEERF%20II%20CRRSAA.pdf){: target="_blank" rel="noopener noreferrer"}
 
 #### Quarterly Budget and Expenditure Reporting under CARES Act Sections 18004(a)(1) Institutional Portion, 18004(a)(2), and 18004(a)(3)
-{: .typography__h4.links__offset }
+{: .typography__h4.links__offset}
 
-- [Quarter 1 Report for HEERF II Institutional Portion](./uploads/pdf/Quarter%201%20Report%20for%20HEERF%20II%20Institutional%20Portion.pdf){: target='_blank' rel='noopener noreferrer' }
-
+* [Quarter 1 Report for HEERF II Institutional Portion](./uploads/pdf/Quarter%201%20Report%20for%20HEERF%20II%20Institutional%20Portion.pdf){: target="_blank" rel="noopener noreferrer"}
