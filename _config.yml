@@ -89,8 +89,7 @@ exclude:
   - "UPDATE_PROCEDURE.md"
   - "ruby-version.txt"
 
-uploads_dir: # specifies the default uploads directory for CloudCannon
-  - "uploads/"
+uploads_dir: "uploads/" # specifies the default uploads directory for CloudCannon
 
 _comments:
   layout: Do NOT modify layouts. It may break things.
