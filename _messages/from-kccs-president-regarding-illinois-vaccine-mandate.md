@@ -1,5 +1,5 @@
 ---
-card_heading: From KCC's President regarding Illinois vaccine mandate
+card_heading: From KCC's president regarding Illinois vaccine mandate
 order: 1
 posted: 08/27/2021
 ---
