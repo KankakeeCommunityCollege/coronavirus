@@ -94,8 +94,8 @@ uploads_dir: "uploads/" # specifies the default uploads directory for CloudCanno
 _comments:
   layout: Do NOT modify layouts. It may break things.
   baseurl: Do NOT modify baseurl. It WILL break all page links.
-  date: 'Posted date of the message'
-
+  card_heading: 'Title of the message'
+  date: 'Date the message was posted on'
 _options: # The CloudCannon options key
   layout: # We don't want users changing these!!
     hidden: true
