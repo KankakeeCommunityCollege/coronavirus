@@ -1,7 +1,6 @@
 ---
 card_heading: Welcome to Fall 2021 at KCC!
-order: 1
-posted: 08/11/2021
+date: 2021-08-11
 ---
 
 <br>&nbsp;Thank you for enrolling for Fall 2021\!<br>Your KCC education will be a great investment in your future.<br>We are focused on providing you with a quality education and maintaining a healthy learning environment.<br>Here are a few key things to know about Fall 2021:

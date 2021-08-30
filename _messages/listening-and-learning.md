@@ -1,7 +1,6 @@
 ---
 card_heading: 'Listening and Learning - A Culture of Caring'
-order: 1
-posted: 06/03/20
+date: 2020-06-03
 ---
 
 <p>Dear Students,&nbsp;</p>
