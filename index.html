@@ -4,6 +4,8 @@ baseurl:
 title: Coronavirus (COVID-19) Response
 description:
 main_heading: KCC is open
+hero_banner: /uploads/vaccine-reminder-web-banner-fall-21.jpg
+hero_banner_alt: "Banner that reads: 'Please get vaccinated - it's safe & effective - help yourself & the community - get a FREE KCC class - meet state & federal mandates - Thank you!'"
 ---
 
 <!-- Build -->
@@ -12,6 +14,16 @@ main_heading: KCC is open
     <div class="row">
       <div class="col">
         <h2 class="typography__h2">{{ page.main_heading }}</h2>
+        {%- if page.hero_banner -%}
+        <div class="text-center mt-2 mb-3">
+          <img
+            src="{{ page.hero_banner }}"
+            class="img-fluid img__full-width"
+            height="450"
+            width="800"
+            alt="{{ page.hero_banner_alt }}">
+        </div>
+        {%- endif -%}
         <div class="mb-4 editable">
           <h3 class="typography__h3">KCC is committed to reducing the spread of coronavirus (COVID-19).</h3>
           <p>The opening status and guidelines consider federal, state, and local directives. The college also follows Illinois Community College Board and <a target="_blank" rel="noopener noreferrer" href="https://coronavirus.illinois.gov/s/restore-illinois-introduction">Restore Illinois</a> guidelines.</p>
@@ -19,33 +31,27 @@ main_heading: KCC is open
           <p>Please understand that because of the changing nature of COVID-19 and Illinois&rsquo; Reopening Plan, this information may change without notice.</p>
           <p>If you don&rsquo;t see what you are looking for&mdash;or would like more information&mdash;please <a href="/contact-us">contact us</a>.</p>
           <h4 class="typography-h4">Mask and vaccination requirements</h4>
-          <p>
-            KCC complies with Gov. Pritzker's vaccine and mask requirements announced Aug. 26, 2021. It applies to those who are
-            inside a college facility for more than 15 minutes at least once a week on a regular basis, including students and
-            employees. It does not include Individuals who complete their coursework exclusively remotely.
-          </p>
+          <p>KCC complies with Gov. Pritzker's vaccine and mask requirements, first announced on Aug. 26, 2021. It applies to those who are inside a college facility for more than 15 minutes at least once a week on a regular basis, including students and employees.</p>
           <ul>
-            <li>If you are already vaccinated, complete KCC&rsquo;s <a target="_blank" rel="noopener" href="https://form.jotform.com/212384579044965">verification form</a> online. This is a one-time verification. Please submit verification by Sept. 5, 2021.
-            </li>
-            <li>If you are not already vaccinated, consider making plans to receive the first dose of a two-dose COVID-19 vaccination series or a single-dose vaccination by Sept. 5, 2021. Second doses of the vaccine must be received within 30 days after the first dose.</li>
-            <li>If you do not receive the vaccine, you must be tested for COVID-19 once per week when testing becomes available at KCC. The earliest date that KCC will be able to implement testing at the Riverfront Campus is Oct. 11. Testing will later expand to extension centers. That information will be communicated to students and employees as it becomes available.<ul>
+            <li>If you are already vaccinated, complete KCC&rsquo;s <a target="_blank" rel="noopener" href="https://form.jotform.com/212384579044965">verification form</a> online. This is a one-time verification. Please submit verification by Sept. 19, 2021.</li>
+            <li>If you are not already vaccinated, consider making plans to receive the first dose of a two-dose COVID-19 vaccination series or a single-dose vaccination by Sept. 19, 2021. Second doses of the vaccine must be received within 30 days after the first dose.</li>
+            <li>If you do not receive the vaccine, you must be tested for COVID-19 once per week when testing becomes available at KCC. The college is working to implement testing as soon as possible.<ul>
+                <li>You <strong>can come to campus</strong> during any gap between the governor's date for vaccines and when KCC can offer the test.</li>
                 <li>Weekly tests will be free.</li>
+                <li>Details of how to follow the weekly testing protocol are in the works and will be communicated as information becomes available.</li>
                 <li>KCC is contracting with a third party vendor to provide saliva-based PCR tests.</li>
-                <li>Details of how to follow the weekly testing protocol are in the works and will be communicated before Oct. 11.</li>
+                <li>Testing will later expand to extension centers. That information will be communicated to students and employees as it becomes available.</li>
               </ul>
             </li>
             <li>Most KCC students who are vaccinated qualify for a free class from KCC. This is up to $495 which will be a credit on your account. <a href="https://news.kcc.edu/2021/08/02/vaccinated-claim-a-free-class.html">Read all details here</a>.</li>
-            <li>Regardless of reason, those who do not provide proof of vaccination will be prevented from entering KCC facilities unless they follow the required testing protocol.&nbsp;<ul>
-                <li>Because of the timeframe when testing can begin at KCC, &nbsp;the earliest KCC will check tests is the week of Oct. 11.</li>
-              </ul>
-            </li>
+            <li>Access to college facilities will not be limited while the testing process is put in place. All students can come to the college and should continue to <a href="https://certify.kcc.edu">certify</a>, social distance and wear masks.</li>
           </ul>
           <p>The <a href="https://coronavirus.kcc.edu/faq/">FAQ page</a> has a special section dedicated to questions about the vaccination policy.</p>
-          <p>KCC has a <a href="/Mask-required-August2021.pdf">mask policy</a> for all indoor public spaces, regardless of COVID-19 vaccination status.</p>
+          <p>KCC has a <a href="/uploads/pdf/mask-required-august2021.pdf" target="_blank" rel="noopener noreferrer">mask policy</a> for all indoor public spaces, regardless of COVID-19 vaccination status.</p>
           <h4 class="typography-h4">The basics: What to expect</h4>
           <ul>
             <li>Before every visit to the college&mdash;or upon entering a college building&mdash;students should complete a self-assessment daily. The self-assessment is at&nbsp;<a target="_blank" rel="noopener" href="https://certify.kcc.edu/">certify.kcc.edu</a>.</li>
-            <li><a href="/Mask-required-August2021.pdf">Masks are required</a> in indoor public spaces for everyone, regardless of COVID-19 vaccination status.&nbsp;</li>
+            <li><a href="/uploads/pdf/mask-required-august2021.pdf" target="_blank" rel="noopener noreferrer">Masks are required</a> in indoor public spaces for everyone, regardless of COVID-19 vaccination status.&nbsp;</li>
             <li>Maintain social distancing while utilizing services and common areas at the college.</li>
             <li>Follow all instructions on posted signage and from staff.</li>
             <li>Classes are offered in-person, online and a hybrid (some online, some in-person). The <a target="_blank" rel="noopener" href="http://www.kcc.edu/schedule">class schedule</a> has details on how the class is being offered.</li>
