@@ -4,6 +4,8 @@ baseurl:
 title: Coronavirus (COVID-19) Response
 description:
 main_heading: KCC is open
+hero_banner: /uploads/vaccine-reminder-web-banner-fall-21.jpg
+hero_banner_alt: "Banner that reads: 'Please get vaccinated - it's safe & effective - help yourself & the community - get a FREE KCC class - meet state & federal mandates - Thank you!'"
 ---
 
 <!-- Build -->
@@ -12,6 +14,16 @@ main_heading: KCC is open
     <div class="row">
       <div class="col">
         <h2 class="typography__h2">{{ page.main_heading }}</h2>
+        {%- if page.hero_banner -%}
+        <div class="text-center mt-2 mb-3">
+          <img
+            src="{{ page.hero_banner }}"
+            class="img-fluid img__full-width"
+            height="450"
+            width="800"
+            alt="{{ page.hero_banner_alt }}">
+        </div>
+        {%- endif -%}
         <div class="mb-4 editable">
           <h3 class="typography__h3">KCC is committed to reducing the spread of coronavirus (COVID-19).</h3>
           <p>The opening status and guidelines consider federal, state, and local directives. The college also follows Illinois Community College Board and <a target="_blank" rel="noopener noreferrer" href="https://coronavirus.illinois.gov/s/restore-illinois-introduction">Restore Illinois</a> guidelines.</p>
@@ -35,11 +47,11 @@ main_heading: KCC is open
             <li>Access to college facilities will not be limited while the testing process is put in place. All students can come to the college and should continue to <a href="https://certify.kcc.edu">certify</a>, social distance and wear masks.</li>
           </ul>
           <p>The <a href="https://coronavirus.kcc.edu/faq/">FAQ page</a> has a special section dedicated to questions about the vaccination policy.</p>
-          <p>KCC has a <a href="/Mask-required-August2021.pdf">mask policy</a> for all indoor public spaces, regardless of COVID-19 vaccination status.</p>
+          <p>KCC has a <a href="/uploads/pdf/mask-required-august2021.pdf" target="_blank" rel="noopener noreferrer">mask policy</a> for all indoor public spaces, regardless of COVID-19 vaccination status.</p>
           <h4 class="typography-h4">The basics: What to expect</h4>
           <ul>
             <li>Before every visit to the college&mdash;or upon entering a college building&mdash;students should complete a self-assessment daily. The self-assessment is at&nbsp;<a target="_blank" rel="noopener" href="https://certify.kcc.edu/">certify.kcc.edu</a>.</li>
-            <li><a href="/Mask-required-August2021.pdf">Masks are required</a> in indoor public spaces for everyone, regardless of COVID-19 vaccination status.&nbsp;</li>
+            <li><a href="/uploads/pdf/mask-required-august2021.pdf" target="_blank" rel="noopener noreferrer">Masks are required</a> in indoor public spaces for everyone, regardless of COVID-19 vaccination status.&nbsp;</li>
             <li>Maintain social distancing while utilizing services and common areas at the college.</li>
             <li>Follow all instructions on posted signage and from staff.</li>
             <li>Classes are offered in-person, online and a hybrid (some online, some in-person). The <a target="_blank" rel="noopener" href="http://www.kcc.edu/schedule">class schedule</a> has details on how the class is being offered.</li>
