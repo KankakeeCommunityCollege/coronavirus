@@ -1,91 +1,22 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    {%- for page in site.pages -%}
+    {% unless page.url contains '.xml' or page.url contains '.txt' %}
     <url>
-        
-        <loc>https://coronavirus.kcc.edu/</loc>
-    
-        
-        <lastmod>2021-09-17T20:20:04.194Z</lastmod>
-    
+        <loc>{{ site.public-url }}{{ page.url | uri_escape }}</loc>
+        <lastmod>{% if page.last-mod-time %}{{ page.last-mod-time | date: '%Y-%m-%dT%H:%M:%S.%LZ' }}{% else %}{{ 'today' | date: '%Y-%m-%dT%H:%M:%S.%LZ' }}{% endif %}</lastmod>
     </url>
+    {%- endunless -%}
+    {%- endfor -%}
+    {%- for file in site.static_files -%}
+    {% if file.extname == '.pdf' %}
     <url>
-        
-        <loc>https://coronavirus.kcc.edu/archived-messages/</loc>
-    
-        
-        <lastmod>2021-09-17T20:20:04.192Z</lastmod>
-    
+        <loc>{{ site.public-url }}{{ file.path | uri_escape | replace: '&', '%26' }}</loc>
+        <lastmod>{{ file.modified_time | date: '%Y-%m-%dT%H:%M:%S.%LZ' }}</lastmod>
     </url>
-    <url>
-        
-        <loc>https://coronavirus.kcc.edu/contact-us/</loc>
-    
-        
-        <lastmod>2021-09-17T20:20:04.193Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://coronavirus.kcc.edu/faq/</loc>
-    
-        
-        <lastmod>2021-09-17T20:20:04.194Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://coronavirus.kcc.edu/covid-19-resources/</loc>
-    
-        
-        <lastmod>2021-09-17T20:20:04.193Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://coronavirus.kcc.edu/kcc-resources/</loc>
-    
-        
-        <lastmod>2021-09-17T20:20:04.195Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://coronavirus.kcc.edu/search/</loc>
-    
-        
-        <lastmod>2021-09-17T20:20:04.195Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://coronavirus.kcc.edu/uploads/pdf/Health-Careers-A2-info-while-facilities-closed5-14-20.pdf</loc>
-    
-        
-        <lastmod>2021-04-09T17:34:20.000Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://coronavirus.kcc.edu/uploads/pdf/SHIELD-Illinois-facts-about-the-test.pdf</loc>
-    
-        
-        <lastmod>2021-09-16T16:23:37.000Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://coronavirus.kcc.edu/uploads/pdf/before you go to kcc flyer_2021.pdf</loc>
-    
-        
-        <lastmod>2021-03-31T20:50:00.000Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://coronavirus.kcc.edu/uploads/pdf/mask-required-august2021.pdf</loc>
-    
-        
-        <lastmod>2021-09-16T16:23:37.000Z</lastmod>
-    
-    </url>
+    {%- endif -%}
+    {% endfor %}
 </urlset>

@@ -1,0 +1,10 @@
+    <!-- Custom CSS for the KCC Theme -->
+    <link rel="stylesheet" href="{{page.baseurl}}assets/css/kcc-theme.css">
+    {% if jekyll.environment == "production" or jekyll.environment == "publish" %}
+    <!-- Link to this site's main stylesheet -->
+    <link rel="stylesheet" href="{{page.baseurl}}assets/js/dist/main{% if site.data.hash %}.{{ site.data.hash }}{% endif %}.css">
+    {% endif %}
+    {%- if site.translate == true -%}
+    <!-- Link to this site's custom google translate stylesheet -->
+    <link rel="stylesheet" href="{{page.baseurl}}assets/js/dist/translate.css">
+    {%- endif -%}
