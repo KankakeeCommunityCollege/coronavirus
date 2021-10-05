@@ -1,8 +1,9 @@
 title: "Kankakee Community College"
 site_name: "Coronavirus (COVID-19) Response"
-public-url: "http://www.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
+public-url: "https://www.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
 url: 'URL is needed for robots.txt to work properly' ## NO TRAILING SLASHES!!/<--nope
 theme: "kcc-gem-theme"
+port: 3000
 google-tag_key: Google Tag Manager key goes here
 #translate: true ## Uncomment to activate Google Translate Powers!!
 nav_config:
@@ -70,8 +71,6 @@ future: true
 markdown: kramdown
 
 exclude:
-  - "gulpfile.js"
-  - "gulp-tasks/"
   - "node_modules"
   - "npm-debug.log"
   - "package.json"
@@ -79,15 +78,12 @@ exclude:
   - "README.md"
   - "Gemfile"
   - "Gemfile.lock"
-  - "gulpconfig.yml"
   - "webpack.config.js"
-  - "install.sh"
-  - "install_template.sh"
-  - "WEBPACK-BABEL-COREJS_INFO.md"
   - "siteicon.png"
   - "page-startups"
-  - "UPDATE_PROCEDURE.md"
   - "ruby-version.txt"
+  - "buildtools/"
+  - "postcss.config.js"
 
 uploads_dir: "uploads/" # specifies the default uploads directory for CloudCannon
 

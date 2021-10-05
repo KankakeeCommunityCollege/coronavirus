@@ -38,7 +38,6 @@ function start() {
   }).then(() => {
     return gapi.client.drive.files.get(DRIVE_PARAMS);  // Have to use Drive API v3 to get the sheet's 'modifiedTime'
   }).then(response => {
-    console.log(response);
     injectLastModDate(response);
   }, (err) => {  // Catch errors thrown by googleapi, or a failed attempt at getting the sheet.
     // Error message is located in `response.result.error.message` for a Sheets response.

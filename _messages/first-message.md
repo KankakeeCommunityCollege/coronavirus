@@ -3,7 +3,7 @@ card_heading: 'A message from Kankakee Community College'
 date: 2020-03-05
 ---
 
-<p><strong>POSTED ON: 3/5/20</strong></p>
+**POSTED ON: 3/5/20**
 
 Hello:
 

@@ -1,3 +1,4 @@
+import '../../scss/main.scss';
 import toggleButton from './toggleButton.js';
 import start from './sheetsApiCall.js';
 
