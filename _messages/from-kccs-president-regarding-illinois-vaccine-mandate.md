@@ -3,6 +3,8 @@ card_heading: From KCC's president regarding Illinois vaccine mandate
 date: 2021-08-27
 ---
 
+**POSTED ON: 08/27/21**
+
 Yesterday, Illinois Gov. Pritzker announced new vaccine requirements for higher education students and employees, including KCC.
 
 To comply with the mandate, KCC will be asking you to submit proof of vaccination. If you choose not to become vaccinated by September 5th, you will be required to submit to weekly COVID-19 testing at the college. We're still working out the details of weekly testing, and we will share more details when we are able to do so.

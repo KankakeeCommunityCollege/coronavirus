@@ -3,6 +3,8 @@ card_heading: 'Listening and Learning - A Culture of Caring'
 date: 2020-06-03
 ---
 
+**POSTED ON: 06/03/20**
+
 Dear Students,
 
 Since the events which occurred on May 25<sup>th</sup>&nbsp;which led to the death of George Floyd, we have all experienced a range of emotions. As we grieve together, each in our own way, we also make a commitment to support and care for one another. At KCC, we are committed to nurturing and sustaining a culture of caring because we know that the learning process begins with caring deeply about others as human beings.

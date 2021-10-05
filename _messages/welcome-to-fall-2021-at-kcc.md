@@ -3,6 +3,8 @@ card_heading: Welcome to Fall 2021 at KCC!
 date: 2021-08-11
 ---
 
+**POSTED ON: 08/11/21**
+
 Thank you for enrolling for Fall 2021\!<br>Your KCC education will be a great investment in your future.<br>We are focused on providing you with a quality education and maintaining a healthy learning environment.<br>Here are a few key things to know about Fall 2021:
 
 * Many classes will be in-person. Online and hybrid options are also being offered. If you are not sure about how your class(es) will be held – in-person, online, or a combination – please review your registration statement through my.kcc.edu (choose Self-service) or email advising@kcc.edu.
