@@ -1,10 +1,10 @@
 title: "Kankakee Community College"
 site_name: "Coronavirus (COVID-19) Response"
 public-url: "https://www.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
-url: 'URL is needed for robots.txt to work properly' ## NO TRAILING SLASHES!!/<--nope
+url: 'https://coronavirus.kcc.edu' ## NO TRAILING SLASHES!!/<--nope
 theme: "kcc-gem-theme"
 port: 3000
-google-tag_key: Google Tag Manager key goes here
+google-tag_key: GTM-WHBQ3NH
 #translate: true ## Uncomment to activate Google Translate Powers!!
 nav_config:
   smaller_brand: true
