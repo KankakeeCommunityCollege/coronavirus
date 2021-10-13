@@ -73,3 +73,4 @@ There are no set deadlines to apply. Funding will be distributed on a first come
 {: .typography__h4.links__offset}
 
 - [Quarter 1 Report for HEERF III ARP](../uploads/pdf/Quarter%201%20Report%20for%20HEERF%20III%20ARP.pdf){: target='_blank' rel='noopener noreferrer' }
+- [Quarter 3 Report for HEERF III ARP](../uploads/pdf/HEERFIII_Q3-2021_10-10-21.pdf){: target='_blank' rel='noopener noreferrer' }
