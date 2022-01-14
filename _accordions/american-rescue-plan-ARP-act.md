@@ -21,6 +21,7 @@ Kankakee Community College will receive $3.2 million in HEERF III grant funding 
 
 * Be a currently registered student during payment periods at Kankakee Community College during the COVID-19 national emergency
 * Certify you have incurred expenses related to the coronavirus on or after March 13, 2020
+* Apply on or before Jan. 28, 2022.
 
 #### Frequently Asked Questions
 {: .typography__h4}
@@ -33,7 +34,7 @@ The main difference is the change in eligibility requirements. You are no longer
 ##### Is there an application required?
 {: .typography__h5}
 
-Yes, a HEERF III application is required. Eligible students should have received an application link to their student email account. You can also access the [HEERF III Application form](https://form.jotform.com/212015939187964){: .btn.btn-primary target="_blank" rel="noopener noreferrer"}.
+Yes, a HEERF III application is required. Eligible students should have received an application link to their student email account. You can also access the [HEERF III Application form](https://form.jotform.com/212015939187964){: .btn.btn-primary target="_blank" rel="noopener noreferrer"}. The deadline to apply is Jan. 28, 2022.
 
 ##### How will I know if I am approved?
 {: .typography__h5}
