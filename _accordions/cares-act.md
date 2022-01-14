@@ -59,11 +59,11 @@ You may also check [KCC’s Coronavirus Response webpage](https://coronavirus.kc
 
 The following information is provided by Kankakee Community College (KCC) as required by the U.S. Department of Education in order to comply with reporting requirement under the CARES Act.
 
-- [HEERF Report May 2020 PDF](../uploads/pdf/HEERF%20Report%20May%202020.pdf){: target='_blank' rel='noopener noreferrer' }
-- [HEERF Report July 2020 PDF](../uploads/pdf/HEERF%20Report%20July%202020.pdf){: target='_blank' rel='noopener noreferrer' }
-- [HEERF Report October 2020 PDF](../uploads/pdf/HEERF%20Report%20October%202020.pdf){: target='_blank' rel='noopener noreferrer' }
-- [HEERF Report January 2021 PDF](../uploads/pdf/HEERF%20Report%20January%202021.pdf){: target='_blank' rel='noopener noreferrer' }
-- [HEERF Report April 2021 PDF](../uploads/pdf/HEERF%20Report%20April%202021.pdf){: target='_blank' rel='noopener noreferrer' }
+- [HEERF Report May 2020 PDF](../uploads/pdf/HEERF%20Report%20May%202020_rev-1-14-22.pdf){: target='_blank' rel='noopener noreferrer' }
+- [HEERF Report July 2020 PDF](../uploads/pdf/HEERF%20Report%20July%202020_rev-1-14-22.pdf){: target='_blank' rel='noopener noreferrer' }
+- [HEERF Report October 2020 PDF](../uploads/pdf/HEERF%20Report%20October%202020_rev-1-14-22.pdf){: target='_blank' rel='noopener noreferrer' }
+- [HEERF Report January 2021 PDF](../uploads/pdf/HEERF%20Report%20January%202021_rev-1-14-22.pdf){: target='_blank' rel='noopener noreferrer' }
+- [HEERF Report April 2021 PDF](../uploads/pdf/HEERF%20Report%20April%202021_rev-1-14-22.pdf){: target='_blank' rel='noopener noreferrer' }
 
 #### Quarterly Budget and Expenditure Reporting under CARES Act Sections 18004(a)(1) Institutional Portion, 18004(a)(2), and 18004(a)(3)
 {: .typography__h4 }
