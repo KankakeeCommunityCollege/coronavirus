@@ -7,7 +7,7 @@ order: 6
 ### CARES Act Information
 {: .typography__h3.links__offset}
 
-#### ​COVID-19 Emergency Funding for Students
+#### COVID-19 Emergency Funding for Students
 {: .typography__h4.links__offset}
 
 If you are a KCC student with expenses related to the disruption of campus operations because of COVID-19, you may qualify for federal CARES Act grant assistance.
@@ -49,12 +49,12 @@ To confirm you are an eligible student or could be an eligible student to partic
 
 **Who can I call for more information?** If you have questions or need more information, call or email KCC’s Office of Financial Aid: [815-802-8550](tel:+18158028550), [finaid@kcc.edu](mailto:finaid@kcc.edu)
 
-You may also check [KCC’s Coronavirus Response webpage](https://coronavirus.kcc.edu/) for additional information on KCC's response to COVID-19.​
+You may also check [KCC’s Coronavirus Response webpage](https://coronavirus.kcc.edu/) for additional information on KCC's response to COVID-19.
 
 ### Higher Education Emergency Relief Fund Reporting
 {: .typography__h3.links__offset}
 
-#### ​Emergency Financial Aid Grants to Students
+#### Emergency Financial Aid Grants to Students
 {: .typography__h4.links__offset}
 
 The following information is provided by Kankakee Community College (KCC) as required by the U.S. Department of Education in order to comply with reporting requirement under the CARES Act.
@@ -73,4 +73,4 @@ The following information is provided by Kankakee Community College (KCC) as req
 - [Quarter 3 CARES & Institutional Portion Reporting PDF](../uploads/pdf/Quarter%203%20CARES%20&%20Institutional%20Portion%20Reporting.pdf){: target='_blank' rel='noopener noreferrer' }
 - [Quarter 4 CARES & Institutional Portion Reporting PDF](../uploads/pdf/Quarter%204%20CARES%20Institutional%20Portion%20Reporting.pdf){: target='_blank' rel='noopener noreferrer' }
 - [Quarter 3 CARES & Institutional Portion Reporting PDF](../uploads/pdf/HEERF_Q3-2021_10-10-21.pdf){: target='_blank' rel='noopener noreferrer' }
-- [Quarter 4 CARES & Institutional Portion Reporting PDF](../uploads/pdf/Quarter%204%20CARES%20Institutional%20Portion.pdf){: target='_blank' rel='noopener noreferrer' }
+- [Quarter 4 CARES & Institutional Portion Reporting PDF](../uploads/pdf/HEERF_Q4-2021_01-05-22.pdf){: target='_blank' rel='noopener noreferrer' }
