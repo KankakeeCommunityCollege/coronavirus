@@ -64,7 +64,7 @@ No, money received through this fund is a grant and does not need to be repaid.
 ##### What are the deadlines to apply?
 {: .typography__h5}
 
-The deadline to apply is Jan. 28, 2022. Until that time, funding will be distributed on a first come, first served basis or until funding is exhausted.
+The deadline to apply was Jan. 28, 2022.
 
 ### ARP Reporting
 {: .typography__h3.links__offset}
