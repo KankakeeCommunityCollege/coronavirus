@@ -34,7 +34,7 @@ The main difference is the change in eligibility requirements. You are no longer
 ##### Is there an application required?
 {: .typography__h5}
 
-Yes, a HEERF III application is required. Eligible students should have received an application link to their student email account. You can also access the [HEERF III Application form](https://form.jotform.com/212015939187964){: .btn.btn-primary target="_blank" rel="noopener noreferrer"}. The deadline to apply is Jan. 28, 2022.
+Yes, a HEERF III application is required. Eligible students should have received an application link to their student email account. The deadline to apply was Jan. 28, 2022.
 
 ##### How will I know if I am approved?
 {: .typography__h5}
@@ -77,7 +77,7 @@ The deadline to apply is Jan. 28, 2022. Until that time, funding will be distrib
 * [Quarter 4 Report for HEERF III ARP](../uploads/pdf/Quarter%204%20ARP%20Institutional%20Portion.pdf){: target="_blank" rel="noopener noreferrer"}
 
 #### Quarterly Budget and Expenditure Reporting under CARES Act Sections 18004(a)(1) Institutional Portion, 18004(a)(2), and 18004(a)(3)
-{: .typography__h4 }
+{: .typography__h4}
 
-* [Quarter 3 Report for HEERF III Institutional Portion](../uploads/pdf/HEERFIII_Q3-2021_10-10-21.pdf){: target='_blank' rel='noopener noreferrer' }
-* [Quarter 4 Report for HEERF III Institutional Portion](../uploads/pdf/HEERFIII_Q4-2021_01-05-22.pdf){: target='_blank' rel='noopener noreferrer' }
+* [Quarter 3 Report for HEERF III Institutional Portion](../uploads/pdf/HEERFIII_Q3-2021_10-10-21.pdf){: target="_blank" rel="noopener noreferrer"}
+* [Quarter 4 Report for HEERF III Institutional Portion](../uploads/pdf/HEERFIII_Q4-2021_01-05-22.pdf){: target="_blank" rel="noopener noreferrer"}
