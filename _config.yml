@@ -4,6 +4,7 @@ public-url: "https://www.kcc.edu" ## This gets generated into the link that disp
 url: 'https://coronavirus.kcc.edu' ## NO TRAILING SLASHES!!/<--nope
 theme: "kcc-gem-theme"
 port: 3000
+timezone: America/Chicago
 google-tag_key: GTM-WHBQ3NH
 #translate: true ## Uncomment to activate Google Translate Powers!!
 nav_config:
@@ -46,16 +47,6 @@ collections:
     output: false
   accordions:
     output: false
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    title: ''
-    permalink: /:categories/:title/
-    baseurl: ../../../
-    categories: news
 permalink: pretty
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
