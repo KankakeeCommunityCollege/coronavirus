@@ -1,6 +1,6 @@
 ---
-accordion_page: 'KCC Resources'
-card_heading: 'CRRSAA Information & Reporting'
+accordion_page: KCC Resources
+card_heading: CRRSAA Information & Reporting
 order: 5
 ---
 
@@ -74,8 +74,8 @@ If you have questions or need more information, call or email KCC’s Office of 
 
 * [Quarter 1 Report for HEERF II CRRSAA](../uploads/pdf/Quarter%201%20Report%20for%20HEERF%20II%20CRRSAA.pdf){: target="_blank" rel="noopener noreferrer"}
 * [Quarter 2 Report for HEERF II CRRSAA](../uploads/pdf/Quarter%202%20Report%20for%20HEERF%20II%20CRRSAA.pdf){: target="_blank" rel="noopener noreferrer"}
-* [Quarter 3 Report for HEERF II CRRSAA](../uploads/pdf/Quarter%203%20Report%20for%20HEERF%20II%20CRRSAA.pdf){: target='_blank' rel='noopener noreferrer' }
-* [Quarter 4 Report for HEERF II CRRSAA](../uploads/pdf/Quarter%204%20Report%20for%20HEERF%20II%20CRRSAA.pdf){: target='_blank' rel='noopener noreferrer' }
+* [Quarter 3 Report for HEERF II CRRSAA](../uploads/pdf/Quarter%203%20Report%20for%20HEERF%20II%20CRRSAA.pdf){: target="_blank" rel="noopener noreferrer"}
+* [Quarter 4 Report for HEERF II CRRSAA](../uploads/pdf/Quarter%204%20Report%20for%20HEERF%20II%20CRRSAA.pdf){: target="_blank" rel="noopener noreferrer"}
 
 #### Quarterly Budget and Expenditure Reporting under CARES Act Sections 18004(a)(1) Institutional Portion, 18004(a)(2), and 18004(a)(3)
 {: .typography__h4.links__offset}
@@ -83,7 +83,5 @@ If you have questions or need more information, call or email KCC’s Office of 
 * [Quarter 1 Report for HEERF II Institutional Portion](../uploads/pdf/Quarter-1-Report-for-HEERF-II-Institutional-Portion.pdf){: target="_blank" rel="noopener noreferrer"}
 * [Quarter 3 Report for HEERF II Institutional Portion](../uploads/pdf/HEERFII_Q3-2021_10-10-21.pdf){: target="_blank" rel="noopener noreferrer"}
 * [Quarter 4 Report for HEERF II Institutional Portion](../uploads/pdf/HEERFII_Q4-2021_01-05-22.pdf){: target="_blank" rel="noopener noreferrer"}
-* [Quarter 5 Report for HEERF II Institutional Portion](../uploads/pdf/HEERFII_Q52022_040622.pdf){: target='_blank' rel='noopener noreferrer' }
-
-
-
+* [Quarter 5 Report for HEERF II Institutional Portion](../uploads/pdf/HEERFII_Q52022_040622.pdf){: target="_blank" rel="noopener noreferrer"}
+* [Quarter 6 Report for HEERF II Institutional Portion](../uploads/pdf/HEERFII_Q6-2022_07-01-22.pdf){: target="_blank" rel="noopener noreferrer"}
