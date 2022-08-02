@@ -39,17 +39,30 @@ To confirm you are an eligible student or could be an eligible student to partic
 #### Frequently Asked Questions
 {: .typography__h4.links__offset}
 
-**Does the money need to be repaid?** No, money received through this fund is a grant and does not need to be repaid.
+##### Does the money need to be repaid?
+{: .typography__h6.links__offset}
 
-**Would this funding reduce my financial aid?** No, this does not reduce your financial aid. Eligibility is not dependent on or associated with any other financial aid awards.
+No, money received through this fund is a grant and does not need to be repaid.
 
-**What are the deadlines to apply?** There are no deadlines to apply. Awards will be distributed for those enrolled during semesters of eligibility (Spring 2020 and Summer 2020). If any funds remain, then disbursements may be made to Fall 2020 students.
+##### Would this funding reduce my financial aid?
+{: .typography__h6.links__offset}
 
-**If I lost my student employment job, can I apply for wages lost?** No, wages lost would not be considered an expense. However, you may apply for the expenses you cannot pay due to wages lost.
+No, this does not reduce your financial aid. Eligibility is not dependent on or associated with any other financial aid awards.
 
-**Who can I call for more information?** If you have questions or need more information, call or email KCC’s Office of Financial Aid: [815-802-8550](tel:+18158028550), [finaid@kcc.edu](mailto:finaid@kcc.edu)
+##### What are the deadlines to apply?
+{: .typography__h6.links__offset}
 
-You may also check [KCC’s Coronavirus Response webpage](https://coronavirus.kcc.edu/) for additional information on KCC's response to COVID-19.
+There are no deadlines to apply. Awards will be distributed for those enrolled during semesters of eligibility (Spring 2020 and Summer 2020). If any funds remain, then disbursements may be made to Fall 2020 students.
+
+##### If I lost my student employment job, can I apply for wages lost?
+{: .typography__h6.links__offset}
+
+No, wages lost would not be considered an expense. However, you may apply for the expenses you cannot pay due to wages lost.
+
+##### Who can I call for more information?
+{: .typography__h6.links__offset}
+
+If you have questions or need more information, call or email KCC’s Office of Financial Aid: [815-802-8550](tel:+18158028550), [finaid@kcc.edu](mailto:finaid@kcc.edu)
 
 ### Higher Education Emergency Relief Fund Reporting
 {: .typography__h3.links__offset}

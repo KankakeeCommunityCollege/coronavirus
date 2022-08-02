@@ -7,7 +7,7 @@ date: 2022-02-21
 
 Hello,
 
-On Feb. 9, Gov. Pritzker outlined the next phase of mask mandates for Illinois. Mask requirements are being lifted in most public places by Feb. 28.
+On Feb. 9, Gov. Pritzker outlined the next phase of mask mandates for Illinois. Mask requirements are being lifted in most public places by Feb.&nbsp;28.
 
 KCC will remove its mask requirements, effective Feb. 28. This applies to all indoor and outdoor college spaces. As the mandate is lifted, face coverings will be optional. Some people might find that continuing to wear a mask is the best option for them.
 

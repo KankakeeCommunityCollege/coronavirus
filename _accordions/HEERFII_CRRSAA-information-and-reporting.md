@@ -26,43 +26,43 @@ HEERF II grants can be used for any component of a student’s cost of attendanc
 #### Frequently Asked Questions
 {: .typography__h4.links__offset}
 
-**Is there an application required?**
-{: .mb-0}
+##### Is there an application required?
+{: .typography__h6.links__offset}
 
 Yes, a HEERF II application is required. Eligible students have already been awarded.&nbsp;
 
-**How will I know if I am approved?**
-{: .mb-0}
+##### How will I know if I am approved?
+{: .typography__h6.links__offset}
 
 You will receive an email to your student email account notifying you whether your application was approved or denied.
 
-**Will this funding reduce my financial aid?**
-{: .mb-0}
+##### Will this funding reduce my financial aid?
+{: .typography__h6.links__offset}
 
 No, this does not impact your financial aid.
 
-**If I am approved, will the funds be applied to my tuition and fees if I owe an outstanding balance?**
-{: .mb-0}
+##### If I am approved, will the funds be applied to my tuition and fees if I owe an outstanding balance?
+{: .typography__h6.links__offset}
 
 KCC will only apply HEERF II grant funds towards any outstanding balance you owe if you indicated you needed assistance with tuition & fees or bookstore charges on your application.
 
-**How will students receive HEERF II Grant funds?**
-{: .mb-0}
+##### How will students receive HEERF II Grant funds?
+{: .typography__h6.links__offset}
 
 If you did not indicate that you need assistance with tuition & fees or bookstore charges on your application, you will be mailed a paper check to the address on your student account.
 
-**Does the money need to be repaid?**
-{: .mb-0}
+##### Does the money need to be repaid?
+{: .typography__h6.links__offset}
 
 No, money received through this fund is a grant and does not need to be repaid.
 
-**What are the deadlines to apply?**
-{: .mb-0}
+##### What are the deadlines to apply?
+{: .typography__h6.links__offset}
 
 There are no set deadlines to apply. Funding will be distributed on a first come, first served basis until funding is exhausted.
 
-**Where can I get more information?**
-{: .mb-0}
+##### Where can I get more information?
+{: .typography__h6.links__offset}
 
 If you have questions or need more information, call or email KCC’s Office of Financial Aid: [815-802-8550](tel:+18158028550), [finaid@kcc.edu](mailto:finaid@kcc.edu)
 
