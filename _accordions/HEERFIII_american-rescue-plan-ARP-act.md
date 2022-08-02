@@ -8,17 +8,14 @@ order: 1
 {: .typography__h3.links__offset}
 
 On March 11, 2021, President Biden signed the American Rescue Plan Act of 2021 (ARP). The ARP appropriated funds for the Higher Education Emergency Relief Fund (HEERF) and represents the third stream of funding appropriated for HEERF, designating these funds as HEERF III. Eligibility included being a currently registered student during payment periods at KCC during the COVID-19 national emergency. The final date to apply for these funds was Jan. 28, 2022.
-{: .typography__h4}
 
 HEERF III funding was available for any component of a student’s cost of attendance or for emergency costs incurred due to COVID-19. This included tuition and fees, bookstore charges, food, housing, health care (including mental health care), childcare, transportation, and technology. These expenses had to be incurred on or after March 13, 2020, the date of the declaration of the national emergency.
 
 KCC received $3.2 million in HEERF III grant funding to disburse to eligible students. In accordance with federal guidelines, KCC prioritized students with exceptional financial need.
 
-Unless the student authorized KCC to direct funds to pay for tuition and fees, the HEERF III grant funds were mailed as a check to the address on the student account. The funding did not reduce financial aid and did not need to be repaid.&nbsp;
-{: .typography__h4}
+Unless the student authorized KCC to direct funds to pay for tuition and fees, the HEERF III grant funds were mailed as a check to the address on the student account. The funding did not reduce financial aid and did not need to be repaid.
 
 The main difference between HEERF III and HEERF II was the change in eligibility requirements. You are no longer required to be a U.S. citizen or eligible non-citizen to receive funding. All enrolled students are now eligible. This includes citizens, permanent residents, refugees, asylum seekers, Deferred Action for Childhood Arrival (DACA) recipients, other DREAMers, and similar undocumented students.
-{: .typography__h4}
 
 ### ARP Reporting
 {: .typography__h3.links__offset}
