@@ -87,3 +87,4 @@ The following information is provided by Kankakee Community College (KCC) as req
 * [Quarter 3 CARES & Institutional Portion Reporting](../uploads/pdf/HEERF_Q3-2021_10-10-21.pdf){: target="_blank" rel="noopener noreferrer"}
 * [Quarter 4 CARES & Institutional Portion Reporting](../uploads/pdf/HEERF_Q4-2021_01-05-22.pdf){: target="_blank" rel="noopener noreferrer"}
 * [Quarter 5 CARES & Institutional Portion Reporting](../uploads/pdf/HEERF_Q52022_040622.pdf){: target="_blank" rel="noopener noreferrer"}
+* [Quarter 7 CARES & Institutional Portion Reporting](https://coronavirus.kcc.edu/uploads/pdf/HEERF_Q7-2022_10-05-22.pdf)
