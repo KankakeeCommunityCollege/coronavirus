@@ -3,7 +3,6 @@ accordion_page: KCC Resources
 card_heading: American Rescue Plan (ARP) Act
 order: 1
 ---
-
 ### American Rescue Plan information
 {: .typography__h3.links__offset}
 
@@ -35,3 +34,4 @@ The main difference between HEERF III and HEERF II was the change in eligibility
 * [Quarter 4 Report for HEERF III Institutional Portion](../uploads/pdf/HEERFIII_Q4-2021_01-05-22.pdf){: target="_blank" rel="noopener noreferrer"}
 * [Quarter 5 Report for HEERF III Institutional Portion](../uploads/pdf/HEERFIII_Q52022_040622.pdf){: target="_blank" rel="noopener noreferrer"}
 * [Quarter 6 Report for HEERF III Institutional Portion](../uploads/pdf/HEERFIII_Q6-2022_07-01-22.pdf){: target="_blank" rel="noopener noreferrer"}
+* [Quarter 7 Report for HEERF III Institutional Portion](../uploads/pdf/HEERFIII_Q7-2022_10-05-22.pdf){: target="_blank" rel="noopener noreferrer"}
