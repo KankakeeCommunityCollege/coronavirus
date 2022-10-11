@@ -3,7 +3,6 @@ accordion_page: KCC Resources
 card_heading: CRRSAA Information & Reporting
 order: 5
 ---
-
 ### CRRSAA Information
 {: .typography__h3.links__offset}
 
@@ -85,3 +84,4 @@ If you have questions or need more information, call or email KCC’s Office of 
 * [Quarter 4 Report for HEERF II Institutional Portion](../uploads/pdf/HEERFII_Q4-2021_01-05-22.pdf){: target="_blank" rel="noopener noreferrer"}
 * [Quarter 5 Report for HEERF II Institutional Portion](../uploads/pdf/HEERFII_Q52022_040622.pdf){: target="_blank" rel="noopener noreferrer"}
 * [Quarter 6 Report for HEERF II Institutional Portion](../uploads/pdf/HEERFII_Q6-2022_07-01-22.pdf){: target="_blank" rel="noopener noreferrer"}
+* [Quarter 7 Report for HEERF II Institutional Portion](https://coronavirus.kcc.edu/uploads/pdf/HEERFII_Q7-2022_10-05-22.pdf){: target="_blank" rel="noopener noreferrer"}
