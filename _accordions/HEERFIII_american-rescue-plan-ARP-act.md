@@ -35,3 +35,4 @@ The main difference between HEERF III and HEERF II was the change in eligibility
 * [Quarter 5 Report for HEERF III Institutional Portion](../uploads/pdf/HEERFIII_Q52022_040622.pdf){: target="_blank" rel="noopener noreferrer"}
 * [Quarter 6 Report for HEERF III Institutional Portion](../uploads/pdf/HEERFIII_Q6-2022_07-01-22.pdf){: target="_blank" rel="noopener noreferrer"}
 * [Quarter 7 Report for HEERF III Institutional Portion](../uploads/pdf/HEERFIII_Q7-2022_10-05-22.pdf){: target="_blank" rel="noopener noreferrer"}
+* [Quarter 8 Report for HEERF III Institutional Portion](../uploads/pdf/00769000_HEERFIII_Q82022_010423.pdf){: target='_blank' rel='noopener noreferrer' }
