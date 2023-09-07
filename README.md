@@ -4,6 +4,8 @@
 
 ***A startup repo for creating new websites in the KCC website redesign project***
 
+This project's version of Ruby: `ruby-3.1.3`.
+
 ---
 
 <br>
