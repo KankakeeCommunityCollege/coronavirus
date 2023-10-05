@@ -87,4 +87,4 @@ If you have questions or need more information, call or email KCC’s Office of 
 * [Quarter 7 Report for HEERF II Institutional Portion](../uploads/pdf/HEERFII_Q7-2022_10-05-22.pdf){: target="_blank" rel="noopener noreferrer"}
 * [Quarter 8 Report for HEERF II Institutional Portion](../uploads/pdf/00769000_HEERFII_Q82022_010423.pdf){: target='_blank' rel='noopener noreferrer' }
 * [Quarter 9 Report for HEERF II Institutional Portion](../uploads/pdf/HEERFII_Q9-2023_04-03-23.pdf){: target='_blank' rel='noopener noreferrer' }
-* [Quarter 10 Report for HEERF II Institutional Portion](../uploads/pdf/HEERFII_Q102023_07-07-23revised081123.pdf){: target='_blank' rel='noopener noreferrer' }
+* [Quarter 10 Report for HEERF II Institutional Portion](../uploads/pdf/HEERFII_Q10_2023_07-07-23revised100423.pdf){: target='_blank' rel='noopener noreferrer' }
