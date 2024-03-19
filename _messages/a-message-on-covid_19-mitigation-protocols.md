@@ -17,5 +17,5 @@ As always, thank you for demonstrating flexibility and empathy as we address the
 
 If you have any have questions about this, you are welcome to use the [KCC COVID-19 contact us form](https://coronavirus.kcc.edu/contact-us/).
 
-Sincerely, \
+Sincerely,<br>
 Kankakee Community College

@@ -14,13 +14,13 @@ Kankakee Community College will extend its spring break until March 22, and most
 
 There will be no classes in any format from March 16-22 to allow faculty, staff and students to make the adjustment to online delivery. Beginning on March 23 through April 20 faculty will teach lecture classes online. Each professor/instructor will communicate with their students regarding how their specific classes will proceed in an online environment. Some labs will continue to meet in person. Clinicals will continue as allowed by the host site.
 
-If you’re nervous about taking classes in an online environment, or you don’t have the technology or internet connectivity you need, talk to your advisor next week. Should you need it, Information Technology Services and the ITS Help Desk can provide <a href="http://www.kcc.edu/students/helpful/it/Pages/helpdesk.aspx" target="_blank" rel="noopener noreferrer">support for online technologies</a>.
+If you’re nervous about taking classes in an online environment, or you don’t have the technology or internet connectivity you need, talk to your advisor next week. Should you need it, Information Technology Services and the ITS Help Desk can provide <a href="https://www.kcc.edu/about/its/">support for online technologies</a>.
 
 KCC’s Riverfront Campus and its extension sites will remain open. Student support services like tutoring, advising, registration, food pantry, computer labs, and campus resources are still available. While on campus, please practice social distancing guidelines. The Centers for Disease Control defines social distancing as "remaining out of congregate settings, avoiding mass gatherings and maintaining distance (approximately 6 feet) from others when possible."
 
 KCC will update <a href="https://coronavirus.kcc.edu/" target="_blank" rel="noopener noreferrer">coronavirus.kcc.edu</a> as the main source of information for our college’s actions and response.
 
-I realize this is a major disruption of academics. I’ve made these decisions with all the current information available from the <a href="http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus" target="_blank" rel="noopener noreferrer">Illinois Department of Public Health</a>, the <a href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html" target="_blank" rel="noopener noreferrer">Centers for Disease Control</a>, and in consultation with other Illinois community college presidents, KCC’s administrative and faculty leadership teams. I feel it is the best way to minimize the risk of spreading the virus. It is my hope that temporarily moving to the online environment will minimize the spread of the virus, while still pursuing our educational mission.
+I realize this is a major disruption of academics. I’ve made these decisions with all the current information available from the <a href="https://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus" target="_blank" rel="noopener noreferrer">Illinois Department of Public Health</a>, the <a href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html" target="_blank" rel="noopener noreferrer">Centers for Disease Control</a>, and in consultation with other Illinois community college presidents, KCC’s administrative and faculty leadership teams. I feel it is the best way to minimize the risk of spreading the virus. It is my hope that temporarily moving to the online environment will minimize the spread of the virus, while still pursuing our educational mission.
 
 **Other immediate effects**
 
@@ -35,5 +35,5 @@ We will get through this together. I would like to thank students for your flexi
 
 Sincerely,
 
-Dr. Michael Boyd \
+Dr. Michael Boyd <br>
 KCC President

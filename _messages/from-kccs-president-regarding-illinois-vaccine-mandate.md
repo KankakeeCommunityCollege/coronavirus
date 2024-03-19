@@ -19,5 +19,5 @@ As we approach the mandated deadline of September 5th to become vaccinated or be
 This is tough, but I know we'll get through it if we able to encourage each other, extend grace to each other, and always remember that we are all--students and staff--experiencing this together.
 
 
-Michael Boyd, Ph.D. \
+Michael Boyd, Ph.D. <br>
 KCC President

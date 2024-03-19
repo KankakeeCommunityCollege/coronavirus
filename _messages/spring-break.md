@@ -10,7 +10,7 @@ This is a message emailed this morning to students from KCC's vice president for
 
 Dear Students:
 
-The college is closely observing developments of the coronavirus (COVID 19) outbreak, both locally and nationally. We are watching information from the <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank" rel="noopener noreferrer">Centers for Disease Control and Prevention</a> (CDC) and the <a href="http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus" target="_blank" rel="noopener noreferrer">Illinois Department of Public Health</a> for updates and official information. As we are sure you understand, the outbreak and its consequences are continuously changing.
+The college is closely observing developments of the coronavirus (COVID 19) outbreak, both locally and nationally. We are watching information from the <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank" rel="noopener noreferrer">Centers for Disease Control and Prevention</a> (CDC) and the <a href="https://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus" target="_blank" rel="noopener noreferrer">Illinois Department of Public Health</a> for updates and official information. As we are sure you understand, the outbreak and its consequences are continuously changing.
 
 
 At this time, we do not know of any coronavirus cases within the KCC community. The ability of the college to maintain a healthy environment is a partnership among our faculty, staff, students and visitors. It remains very important to continue common-sense precautions and actions recommended by the CDC as defenses against coronavirus and other viruses and respiratory illnesses, including the flu:
@@ -30,5 +30,5 @@ Thank you for your diligence and care.
   
 Sincerely,
   
-Dr. Jose daSilva \
+Dr. Jose daSilva <br>
 Vice President for Student Affairs
