@@ -9,9 +9,9 @@ Beginning Monday, Oct. 11, COVID-19 free testing will be offered on KCC’s Rive
 
 Appointments are required. You can make appointments and access your results through Loop Medical Center’s secure and HIPPA-approved web portal. More information regarding registration and how to access the portal will be sent to your KCC student email on Wednesday, Oct. 6.
 
-The weekly test schedule is: \
-Mondays: 7 a.m. - 7 p.m. \
-Tuesdays: 7 a.m. - 7 p.m. \
+The weekly test schedule is:<br>
+Mondays: 7 a.m. - 7 p.m.<br>
+Tuesdays: 7 a.m. - 7 p.m.<br>
 Wednesdays: 7 a.m. - 1 p.m.
 
 If you are curious about the test, or want to see a preview of the testing process, representatives from Loop Medical Center will be available Friday, Oct. 8 from 9-11 a.m. in the Cavalier Room at KCC. 

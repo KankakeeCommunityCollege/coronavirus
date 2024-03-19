@@ -9,7 +9,7 @@ Editor's note:
 
 KCC is following the shelter-in-place proclamation and our facilities will remain closed until the order is lifted.
 
-Students: \
+Students:<br>
 As conditions continue to evolve, and cautionary measures remain necessary, Kankakee Community College will continue with online classes through the conclusion of the Spring 2020 semester (May 14). This is later than the April 20 date communicated last week. This effort is to continue the college&rsquo;s commitment to reducing potential pathways for community spread of coronavirus (COVID-19).
 
 Each professor/instructor will continue to communicate with their students through Canvas - the online learning environment. Classes and support services, such as the library and tutoring, will continue to be available online.

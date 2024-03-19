@@ -13,9 +13,9 @@ Here are some important details about testing:
 - Appointments are required. Make appointments and access your results through Loop Medical Center’s secure and HIPPA-approved [web portal](https://loop.labsvc.net/patientportal/index.html?kcc){: target='_blank' rel='noopener noreferrer' }
 - Please note: You are NOT required to submit a credit card or have insurance/proof of insurance.  
 - To comply with the governor’s order, unvaccinated students will need to send test results to KCC each week. The web link to upload results will be sent via email to you. You can use this link whether you complete COVID testing at KCC or another location.
-- Testing is in the KCC Cavalier Room \
-Mondays: 7 a.m. - 7 p.m. \
-Tuesdays: 7 a.m. - 7 p.m. \
+- Testing is in the KCC Cavalier Room<br>
+Mondays: 7 a.m. - 7 p.m.<br>
+Tuesdays: 7 a.m. - 7 p.m.<br>
 Wednesdays: 7 a.m. - 1 p.m.
 
 To learn more about the test, or to see a preview of the testing process, representatives from Loop Medical Center will be in the Cavalier Room at KCC Friday, Oct. 8 from 9-11 a.m. 
