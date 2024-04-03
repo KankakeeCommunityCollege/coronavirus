@@ -2,6 +2,7 @@ title: "Kankakee Community College"
 site_name: "Coronavirus (COVID-19) Response"
 public-url: "https://www.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
 url: 'https://coronavirus.kcc.edu' ## NO TRAILING SLASHES!!/<--nope
+canonical_baseurl: 'https://coronavirus.kcc.edu'
 theme: "kcc-gem-theme"
 port: 3000
 timezone: America/Chicago
