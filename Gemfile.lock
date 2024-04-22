@@ -36,7 +36,7 @@ GEM
       sass-embedded (~> 1.54)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kcc-gem-theme (1.96.1)
+    kcc-gem-theme-original (1.0.5)
       jekyll (~> 4)
     kramdown (2.4.0)
       rexml
@@ -69,7 +69,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4)
-  kcc-gem-theme (~> 1)
+  kcc-gem-theme-original (~> 1)
 
 BUNDLED WITH
    2.4.19
