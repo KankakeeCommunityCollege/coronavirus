@@ -3,7 +3,7 @@ site_name: "Coronavirus (COVID-19) Response"
 public-url: "https://www.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
 url: 'https://coronavirus.kcc.edu' ## NO TRAILING SLASHES!!/<--nope
 canonical_baseurl: 'https://coronavirus.kcc.edu'
-theme: "kcc-gem-theme"
+theme: "kcc-gem-theme-original"
 port: 3000
 timezone: America/Chicago
 google-tag_key: GTM-WHBQ3NH
@@ -76,6 +76,8 @@ exclude:
   - "ruby-version.txt"
   - "buildtools/"
   - "postcss.config.js"
+  - "look-for-deprecated-bs4-classes.mjs"
+  - "look-for-deprecated-bs4-js.mjs"
 
 uploads_dir: "uploads/" # specifies the default uploads directory for CloudCannon
 

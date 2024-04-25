@@ -1,8 +1,9 @@
 import '../../scss/main.scss';
-import toggleButton from './toggleButton.js';
-import start from './sheetsApiCall.js';
 
-document.addEventListener('DOMContentLoaded', function() {
-  toggleButton();
-  gapi.load('client', start);
+window.addEventListener('load', () => {
+  if (document.getElementById('trackerTable')) {
+    import('./sheetsApiCall').then(({ default: start }) => {
+      gapi.load('client', start);
+    });
+  }
 });

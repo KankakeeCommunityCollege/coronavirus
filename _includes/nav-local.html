@@ -2,11 +2,11 @@
   <a href="{{ page.baseurl }}" class="links__no-underline navbar-brand">
     <h1 class="typography__nav-heading{% if site.nav_config.smaller_brand == true %} typography__nav-heading--smaller{% endif %}">Coronavirus Response</h1>
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavContent" aria-controls="mainNavContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavContent" aria-controls="mainNavContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="mainNavContent">
-    <ul class="js-nav navbar-nav ml-auto">
+    <ul class="js-nav navbar-nav ms-auto">
       {% for link in site.nav_links %}
       {% if link.button == false  %}
       <li class="js-nav-item nav-item">
@@ -14,7 +14,7 @@
       </li>
       {% elsif link.dropdown %}
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle btn btn-primary typography__nav-local--nav-link links__nav-link--color" href="#" id="{{ link.link_text | downcase }}NavbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle btn btn-primary typography__nav-local--nav-link links__nav-link--color" href="#" id="{{ link.link_text | downcase }}NavbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           {{ link.link_text }}
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="{{ link.link_text | downcase }}NavbarDropdown">
