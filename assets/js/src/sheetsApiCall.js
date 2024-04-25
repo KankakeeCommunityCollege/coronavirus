@@ -1,16 +1,20 @@
 import injectTableValues from './injectTableValues.js'; // Builds the Google Sheet results into the Table on the page.
 import injectLastModDate from './injectLastModDate.js';
-
-const SHEET_PARAMS = {
+// Configuration object for Google Sheets API call:
+//  * spreadsheetId = ID in URL of spreadsheet
+//  * range = range to pull from spreadsheet in A1 notation
+const sheetParams = {
   spreadsheetId: '1JDL9QfTqQ1zAVz50gf74WhYuu0QvyG9X-6ESJiddA9Q',
   range: 'Sheet1!B4:C7'
 };
-const CLIENT_PARAMS = {
+// Configuration object for Sheets + Drive API's:
+const clientParams = {
   'apiKey': 'AIzaSyA8LOs7BC9Hl_ibwdGd9DSQKINcWRcuu1o',
   'discoveryDocs':['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest', 'https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest'],
   'scopes': ['https://www.googleapis.com/auth/drive.readonly', 'https://www.googleapis.com/auth/drive.metadata.readonly']
 };
-const DRIVE_PARAMS = {
+// Configuration object for Drive API call:
+const driveParams = {
   'fileId': '1JDL9QfTqQ1zAVz50gf74WhYuu0QvyG9X-6ESJiddA9Q',
   'fields': '*'
 }
@@ -31,12 +35,12 @@ function start() {
   if (! document.getElementById('trackerTable') ) // Only proceed if this element exists in the page.
     return;
 
-  gapi.client.init(CLIENT_PARAMS).then(() => {
-    return gapi.client.sheets.spreadsheets.values.get(SHEET_PARAMS);
+  gapi.client.init(clientParams).then(() => {
+    return gapi.client.sheets.spreadsheets.values.get(sheetParams);
   }).then(response => {
     injectTableValues(response);
   }).then(() => {
-    return gapi.client.drive.files.get(DRIVE_PARAMS);  // Have to use Drive API v3 to get the sheet's 'modifiedTime'
+    return gapi.client.drive.files.get(driveParams);  // Have to use Drive API v3 to get the sheet's 'modifiedTime'
   }).then(response => {
     injectLastModDate(response);
   }, (err) => {  // Catch errors thrown by googleapi, or a failed attempt at getting the sheet.

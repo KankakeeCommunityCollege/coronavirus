@@ -2,11 +2,27 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Typkit font for KCC logo-font -->
+    <link rel="preconnect" href="https://use.typekit.net/mli7lsm.css">
+    <!-- Link to Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Oswald:wght@400;500&family=Roboto:wght@400;500;700&family=Material+Icons&display=swap">
     <!-- GCS -->
     <link rel="preconnect" href="https://clients1.google.com">
     <link rel="preconnect" href="https://www.google.com">
-
-    <link rel="preconnect" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></link>
+    <!-- google api used for Sheet api (for alerts) -->
+    <link rel="preconnect" href="https://apis.google.com/js/api.js">
+    <!-- Bootstrap 5 styles (only used components/utilities)  -->
+    <link rel="preload" as="style" href="{{page.baseurl}}assets/js/dist/bootstrap.{% include hash/theme_hash.yml %}.css">
     <link rel="preload" as="style" href="{{ page.baseurl }}assets/js/dist/theme.{% include hash/theme_hash.yml %}.css">
     <link rel="preload" as="script" href="{{ page.baseurl }}assets/js/dist/theme.{% include hash/theme_hash.yml %}.bundle.js">
+    {% if page.slides or page.include_datatables == true %}
+    <!-- CDN link to jQuery 3 -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    {% endif %}
+    {%- if page.slides %}
+    <link rel="preconnect" as="style" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.css"/>
+    <link rel="preconnect" as="style" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.min.css"/>
+    <!--  Link to Slick.js javascript  -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js">
+    {%- endif %}
+    <!-- End of preconnects -->
