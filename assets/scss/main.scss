@@ -1,22 +1,22 @@
-// Variables
-@import '0-tools/vars';
+// Tools
+
 
 // Base items
-@import '1-base/typography';
-@import '1-base/links';
-@import '1-base/buttons';
-@import '1-base/lists';
-@import '1-base/table';
+@use '1-base/typography';
+@use '1-base/links';
+@use '1-base/buttons';
+@use '1-base/lists';
+@use '1-base/table';
 
 // Modular components
-@import '2-modules/error';
+@use '2-modules/error';
 
 // Layout items
-// @import "3-layout/...";
-@import '3-layout/positioning';
-@import '3-layout/content';
-@import '3-layout/posts';
+// @use "3-layout/...";
+@use '3-layout/positioning';
+@use '3-layout/content';
+@use '3-layout/posts';
 
 // Page specific styling
-// @import "4-pages/...";
-@import '4-pages/index/home';
+// @use "4-pages/...";
+@use '4-pages/index/home';
