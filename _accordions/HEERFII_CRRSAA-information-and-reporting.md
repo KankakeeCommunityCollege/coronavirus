@@ -3,6 +3,7 @@ accordion_page: KCC Resources
 card_heading: CRRSAA Information & Reporting
 order: 5
 ---
+{::options auto_ids="false" /}
 ### CRRSAA Information
 {: .typography__h3.links__offset}
 
