@@ -3,6 +3,7 @@ accordion_page: KCC Resources
 card_heading: American Rescue Plan (ARP) Act
 order: 1
 ---
+{::options auto_ids="false" /}
 ### American Rescue Plan information
 {: .typography__h3.links__offset}
 
