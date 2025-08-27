@@ -6,7 +6,7 @@ layout: null
     {%- for page in site.pages -%}
     {% unless page.url contains '.xml' or page.url contains '.txt' %}
     <url>
-        <loc>{{ site.public-url }}{{ page.url | uri_escape }}</loc>
+        <loc>{{ site.sitemap_baseurl }}{{ page.url | uri_escape }}</loc>
         <lastmod>{% if page.last-mod-time %}{{ page.last-mod-time | date: '%Y-%m-%dT%H:%M:%S.%LZ' }}{% else %}{{ 'today' | date: '%Y-%m-%dT%H:%M:%S.%LZ' }}{% endif %}</lastmod>
     </url>
     {%- endunless -%}
@@ -14,7 +14,7 @@ layout: null
     {%- for file in site.static_files -%}
     {% if file.extname == '.pdf' %}
     <url>
-        <loc>{{ site.public-url }}{{ file.path | uri_escape | replace: '&', '%26' }}</loc>
+        <loc>{{ site.sitemap_baseurl }}{{ file.path | uri_escape | replace: '&', '%26' }}</loc>
         <lastmod>{{ file.modified_time | date: '%Y-%m-%dT%H:%M:%S.%LZ' }}</lastmod>
     </url>
     {%- endif -%}
