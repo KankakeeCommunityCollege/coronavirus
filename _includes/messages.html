@@ -3,7 +3,7 @@
     <a href="cloudcannon:collections/_messages/" class="btn btn-success editor-button">Edit Messages Collection</a>
   </div>
 </div>
-<div class="accordion">
+<div id="accordion" class="accordion">
   {% assign message_collection = site.messages | sort: date | reverse %}
   {% for item in message_collection %}
   <div class="card">
