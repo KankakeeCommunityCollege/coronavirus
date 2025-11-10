@@ -4,7 +4,7 @@ card_heading: American Rescue Plan (ARP) Act
 order: 1
 ---
 {::options auto_ids="false" /}
-### American Rescue Plan information
+#### American Rescue Plan information
 {: .typography__h3.links__offset}
 
 On March 11, 2021, President Biden signed the American Rescue Plan Act of 2021 (ARP). The ARP appropriated funds for the Higher Education Emergency Relief Fund (HEERF) and represents the third stream of funding appropriated for HEERF, designating these funds as HEERF III. Eligibility included being a currently registered student during payment periods at KCC during the COVID-19 national emergency. The final date to apply for these funds was Jan. 28, 2022.
@@ -17,10 +17,10 @@ Unless the student authorized KCC to direct funds to pay for tuition and fees, t
 
 The main difference between HEERF III and HEERF II was the change in eligibility requirements. You are no longer required to be a U.S. citizen or eligible non-citizen to receive funding. All enrolled students are now eligible. This includes citizens, permanent residents, refugees, asylum seekers, Deferred Action for Childhood Arrival (DACA) recipients, other DREAMers, and similar undocumented students.
 
-### ARP Reporting
+#### ARP Reporting
 {: .typography__h3.links__offset}
 
-#### Emergency Financial Aid Grants to Students
+##### Emergency Financial Aid Grants to Students
 {: .typography__h4.links__offset}
 
 * [Quarter 1 Report for HEERF III ARP](../uploads/pdf/Quarter%201%20Report%20for%20HEERF%20III%20ARP.pdf){: target="_blank" rel="noopener noreferrer"}
@@ -28,7 +28,7 @@ The main difference between HEERF III and HEERF II was the change in eligibility
 * [Quarter 3 Report for HEERF III ARP](../uploads/pdf/Quarter%203%20Report%20for%20HEERF%20III%20ARP.pdf){: target="_blank" rel="noopener noreferrer"}
 * [Quarter 4 Report for HEERF III ARP](../uploads/pdf/HEERFIII_Q42022_040822.pdf){: target="_blank" rel="noopener noreferrer"}
 
-#### Quarterly Budget and Expenditure Reporting under CARES Act Sections 18004(a)(1) Institutional Portion, 18004(a)(2), and 18004(a)(3)
+##### Quarterly Budget and Expenditure Reporting under CARES Act Sections 18004(a)(1) Institutional Portion, 18004(a)(2), and 18004(a)(3)
 {: .typography__h4}
 
 * [Quarter 3 Report for HEERF III Institutional Portion](../uploads/pdf/HEERFIII_Q3-2021_10-10-21.pdf){: target="_blank" rel="noopener noreferrer"}
