@@ -11,7 +11,10 @@ hero_banner_alt:
   <div class="container">
     <div class="row">
       <div class="col">
-        {% include archive-alert.html %}
+        <div class="alert alert-info" role="alert" aria-labelledby="archive-heading">
+          <h2 id="archive-heading" class="h3">Archived Content</h2>
+          <p class="typography__color--inherit mb-0">This website (coronavirus.kcc.edu) is no longer being updated and is maintained for historical reference only.</p>
+        </div>
         <h2 class="typography__h2">{{ page.main_heading }}</h2>
         {%- if page.hero_banner -%}
         <div class="text-center mt-2 mb-3">
