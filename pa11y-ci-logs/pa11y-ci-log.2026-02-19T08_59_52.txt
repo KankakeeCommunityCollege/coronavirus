@@ -1,0 +1,20 @@
+##############################
+##     Pa11y CI results     ##
+##############################
+
+##     Running Pa11y CI:
+##         DATETIME: 2026-02-19T08_59_52
+##         SITEMAP:  https://coronavirus.kcc.edu/pa11y-ci-sitemap.xml
+
+
+Running Pa11y on 8 URLs:
+ > https://coronavirus.kcc.edu/404.html#please-open-all-accordions - 0 errors
+ > https://coronavirus.kcc.edu/archived-messages/#please-open-all-accordions - 0 errors
+ > https://coronavirus.kcc.edu/contact-us/#please-open-all-accordions - 0 errors
+ > https://coronavirus.kcc.edu/covid-19-resources/#please-open-all-accordions - 0 errors
+ > https://coronavirus.kcc.edu/faq/#please-open-all-accordions - 0 errors
+ > https://coronavirus.kcc.edu/#please-open-all-accordions - 0 errors
+ > https://coronavirus.kcc.edu/kcc-resources/#please-open-all-accordions - 0 errors
+ > https://coronavirus.kcc.edu/search/#please-open-all-accordions&gsc.tab=0 - 0 errors
+
+✔ 8/8 URLs passed
