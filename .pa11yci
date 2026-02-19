@@ -1,0 +1,7 @@
+{
+  "defaults": {
+    "wait": 5000,
+    "timeout": 120000,
+    "hideElements": "table.gstl_50.gssb_c, #___gcse_1, iframe[src='https://ep2.adtrafficquality.google/sodar/sodar2/237/runner.html'], table.gstl_51, #goog-gt-tt"
+  }
+}
