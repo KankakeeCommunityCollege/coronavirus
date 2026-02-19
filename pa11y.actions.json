@@ -1,4 +1,5 @@
 {
+  "wait": 5000,
   "timeout": 120000,
   "hideElements": "table.gstl_50.gssb_c",
   "chromeLaunchConfig": {
