@@ -17,9 +17,12 @@
 //      margin-top: -150px;
 //  }
 //}
+
+// Helper class to make links darker inside a BS5 .alert-info (BS5 info background color)
+//  this ensures sufficient contrast against the cyan background color of BS5 .alert-info
 .links__alert-info-darker {
   color: #0068d6;
   &:hover {
-    color: #005ec2;
+    color: #004FA3;
   }
 }
