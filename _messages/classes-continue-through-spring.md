@@ -18,7 +18,7 @@ Adult Education and GED preparation courses are suspended through the end of Spr
 
 KCC facilities remain closed through March 30. The facilities closure includes the Riverfront Campus and Manufacturing and Industrial Technology Center in Kankakee, the North Extension Center in Bradley, and the South Extension Center in Watseka.
 
-KCC will update <a target="_blank" rel="noopener noreferrer" href="https://coronavirus.kcc.edu/">coronavirus.kcc.edu</a> as the main source of information for our college&rsquo;s actions and response.
+KCC will update <a target="_blank" rel="noopener noreferrer" href="https://coronavirus.kcc.edu">coronavirus.kcc.edu</a> as the main source of information for our college&rsquo;s actions and response.
 
 The health and safety of our faculty, staff, students and community is a priority. The college&rsquo;s administration will continue to monitor the state&rsquo;s recommendations and consult with public health authorities.
 
