@@ -18,7 +18,7 @@ If you’re nervous about taking classes in an online environment, or you don’
 
 KCC’s Riverfront Campus and its extension sites will remain open. Student support services like tutoring, advising, registration, food pantry, computer labs, and campus resources are still available. While on campus, please practice social distancing guidelines. The Centers for Disease Control defines social distancing as "remaining out of congregate settings, avoiding mass gatherings and maintaining distance (approximately 6 feet) from others when possible."
 
-KCC will update <a href="https://coronavirus.kcc.edu/" target="_blank" rel="noopener noreferrer">coronavirus.kcc.edu</a> as the main source of information for our college’s actions and response.
+KCC will update <a href="https://coronavirus.kcc.edu">coronavirus.kcc.edu</a> as the main source of information for our college’s actions and response.
 
 I realize this is a major disruption of academics. I’ve made these decisions with all the current information available from the <a href="https://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus" target="_blank" rel="noopener noreferrer">Illinois Department of Public Health</a>, the <a href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html" target="_blank" rel="noopener noreferrer">Centers for Disease Control</a>, and in consultation with other Illinois community college presidents, KCC’s administrative and faculty leadership teams. I feel it is the best way to minimize the risk of spreading the virus. It is my hope that temporarily moving to the online environment will minimize the spread of the virus, while still pursuing our educational mission.
 

@@ -14,7 +14,7 @@ communicate with your professors and contract tracers if necessary. This will al
 forth by the Centers for Disease Control, Illinois Department of Public Health and Kankakee County Health Department.
 
 As a reminder, Information on KCC’s COVID-19 policies and procedures are at 
-[coronavirus.kcc.edu](https://coronavirus.kcc.edu/). You must follow the KCC vaccination policy. 
+[coronavirus.kcc.edu](https://coronavirus.kcc.edu). You must follow the KCC vaccination policy. 
 FREE COVID-19 testing is available for KCC students.
 
 Please contact us if you have any questions. You can also use the 
