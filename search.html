@@ -4,13 +4,11 @@ baseurl: ../
 title: Search
 ---
 
-<main id="content">
-  <div class="container global-nav__search--container">
-    <div class="row">
-      <div class="col">
-        {% include archive-alert.html %}
-        <gcse:searchresults-only></gcse:searchresults-only>
-      </div>
+<div class="container global-nav__search--container">
+  <div class="row">
+    <div class="col" id="searchResultsWrapper">
+      {% include archive-alert.html %}
+      <gcse:searchresults-only></gcse:searchresults-only>
     </div>
   </div>
-</main>
+</div>

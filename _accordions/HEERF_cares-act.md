@@ -3,11 +3,11 @@ accordion_page: KCC Resources
 card_heading: CARES Act information & Reporting
 order: 6
 ---
-#### CARES Act Information
-{: .typography__h3.links__offset}
+### CARES Act Information
+{: .typography__h3}
 
-##### COVID-19 Emergency Funding for Students
-{: .typography__h4.links__offset}
+#### COVID-19 Emergency Funding for Students
+{: .typography__h4}
 
 If you are a KCC student with expenses related to the disruption of campus operations because of COVID-19, you may qualify for federal CARES Act grant assistance.
 
@@ -17,8 +17,8 @@ View KCC's [Higher Education Emergency Relief Fund reporting](#higher-education-
 
 The application process is currently closed. If you are in need of emergency funding or would like to discuss other options, please contact the [KCC Office of Financial Aid](mailto:finaid@kcc.edu).
 
-##### Eligibility
-{: .typography__h4.links__offset}
+#### Eligibility
+{: .typography__h4}
 
 To confirm you are an eligible student or could be an eligible student to participate in programs under Section 484 in Title IV of the Higher Education Act of 1965 (HEA), as amended, a student must:
 
@@ -35,39 +35,39 @@ To confirm you are an eligible student or could be an eligible student to partic
 * If you are male, have registered for Selective Service; and
 * Not have a federal or state conviction for drug possession or sale, with certain time limitations.
 
-##### Frequently Asked Questions
-{: .typography__h4.links__offset}
+#### Frequently Asked Questions
+{: .typography__h4}
 
-###### Does the money need to be repaid?
-{: .typography__h6.links__offset}
+##### Does the money need to be repaid?
+{: .typography__h6}
 
 No, money received through this fund is a grant and does not need to be repaid.
 
-###### Would this funding reduce my financial aid?
-{: .typography__h6.links__offset}
+##### Would this funding reduce my financial aid?
+{: .typography__h6}
 
 No, this does not reduce your financial aid. Eligibility is not dependent on or associated with any other financial aid awards.
 
-###### What are the deadlines to apply?
-{: .typography__h6.links__offset}
+##### What are the deadlines to apply?
+{: .typography__h6}
 
 There are no deadlines to apply. Awards will be distributed for those enrolled during semesters of eligibility (Spring 2020 and Summer 2020). If any funds remain, then disbursements may be made to Fall 2020 students.
 
-###### If I lost my student employment job, can I apply for wages lost?
-{: .typography__h6.links__offset}
+##### If I lost my student employment job, can I apply for wages lost?
+{: .typography__h6}
 
 No, wages lost would not be considered an expense. However, you may apply for the expenses you cannot pay due to wages lost.
 
-###### Who can I call for more information?
-{: .typography__h6.links__offset}
+##### Who can I call for more information?
+{: .typography__h6}
 
 If you have questions or need more information, call or email KCC’s Office of Financial Aid: [815-802-8550](tel:+18158028550), [finaid@kcc.edu](mailto:finaid@kcc.edu)
 
 #### Higher Education Emergency Relief Fund Reporting
-{: .typography__h3.links__offset}
+{: .typography__h3}
 
-##### Emergency Financial Aid Grants to Students
-{: .typography__h4.links__offset}
+#### Emergency Financial Aid Grants to Students
+{: .typography__h4}
 
 The following information is provided by Kankakee Community College (KCC) as required by the U.S. Department of Education in order to comply with reporting requirement under the CARES Act.
 
@@ -77,7 +77,7 @@ The following information is provided by Kankakee Community College (KCC) as req
 * [HEERF Report January 2021](../uploads/pdf/HEERF%20Report%20January%202021_rev-1-14-22.pdf){: target="_blank" rel="noopener noreferrer"}
 * [HEERF Report April 2021](../uploads/pdf/HEERF%20Report%20April%202021_rev-1-14-22.pdf){: target="_blank" rel="noopener noreferrer"}
 
-##### Quarterly Budget and Expenditure Reporting under CARES Act Sections 18004(a)(1) Institutional Portion, 18004(a)(2), and 18004(a)(3)
+#### Quarterly Budget and Expenditure Reporting under CARES Act Sections 18004(a)(1) Institutional Portion, 18004(a)(2), and 18004(a)(3)
 {: .typography__h4}
 
 * [Quarter 1 CARES & Institutional Portion Reporting](../uploads/pdf/Quarter%201%20CARES%20&amp;%20Institutional%20Portion%20Reporting.pdf){: target="_blank" rel="noopener noreferrer"}

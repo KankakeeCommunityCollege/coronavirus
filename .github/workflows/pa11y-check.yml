@@ -18,7 +18,7 @@ jobs:
     steps:
       # Step 1: Checks out your repository under $GITHUB_WORKSPACE
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # Step 2: Set up Ruby environment for Jekyll
       # This step now reads the Ruby version from the .ruby-version file
@@ -40,7 +40,7 @@ jobs:
       # Step 5: Set up Node.js environment for Pa11y
       # This step now reads the Node.js version from the .nvmrc file
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version-file: .nvmrc # Reads the Node.js version from this file
 
@@ -52,6 +52,8 @@ jobs:
       # This step finds all HTML files in the _site directory and runs Pa11y on each.
       # If any accessibility issues are found, the workflow will fail.
       - name: Run Pa11y accessibility checks
+        env:
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
         run: |
           # Find all HTML files recursively within the _site directory
           # and loop through each file
@@ -67,7 +69,7 @@ jobs:
       #  notified regardless of the commit's author.
       - name: Notify developers on failure
         if: failure()
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             const repoUrl = `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}`;
