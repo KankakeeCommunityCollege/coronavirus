@@ -48,7 +48,7 @@
     "postcss": "^8.3.4",
     "postcss-loader": "^8.1.1",
     "sass-embedded": "^1.80.4",
-    "sass-loader": "^16.0.2",
+    "sass-loader": "^17.0.0",
     "style-loader": "^4.0.0",
     "url-loader": "^4.1.1",
     "webpack": "^5.93.0",
