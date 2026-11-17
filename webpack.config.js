@@ -21,6 +21,15 @@ module.exports = (env, argv) => {
 
   return {
     mode: devMode ? 'development' : 'production',
+    // Remove this config/setting after switching to Bootstrap 6:
+    ignoreWarnings: [
+      {
+        message: /repetitive deprecation warnings omitted/,
+      },
+      {
+        message: /Deprecation Warning/,
+      },
+    ],
     plugins,
     entry: './assets/js/src/all.js',
     output: {
